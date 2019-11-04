@@ -41,10 +41,10 @@ def colorscale(VMD, cutoff, out):
     
 
 def TMAlign(protein1,protein2):
-    os.system("g++ TMALign.cpp -o tmalign")
+    os.system("g++ TMAlign.cpp -o tmalign")
     path = protein1[-8:-4] + "x" + protein2[-8:-4] + "_align"
-    os.system("mkdir ..\\Data\\" + path)
-    callalign = ".\\tmalign " + protein1 + " " + protein2 + " -o " + "../Data/" + path + "/" + protein1[-8:-4]
+    os.system("mkdir ../Data/" + path)
+    callalign = "./tmalign.exe " + protein1 + " " + protein2 + " -o " + "../Data/" + path + "/" + protein1[-8:-4]
     os.system(callalign)
     return(path)
 
