@@ -41,7 +41,7 @@ def colorscale(VMD, cutoff, out):
     
 
 def TMAlign(protein1,protein2):
-    os.system("g++ TMAlign.cpp -o tmalign")
+    os.system("g++ TMAlign.cpp -o tmalign.exe")
     path = protein1[-8:-4] + "x" + protein2[-8:-4] + "_align"
     os.system("mkdir ../Data/" + path)
     callalign = "./tmalign.exe " + protein1 + " " + protein2 + " -o " + "../Data/" + path + "/" + protein1[-8:-4]
@@ -198,9 +198,9 @@ def detailed_ploter(rtt_path, stc_path, matches, cutoff):
 
 def multi_ploter(rtt_path, stc_path, matches, cutoff):
     folder = rtt_path[-15:-11] + "_x_" + stc_path[-8:-4]
-    pmlname = "rd ..\\Plots\\" + folder + " /s /q"
+    pmlname = "rm -r ../Plots/" + folder + " /s /q"
     os.system(pmlname)
-    pmlname = "md ..\\Plots\\" + folder
+    pmlname = "mkdir ../Plots/" + folder
     os.system(pmlname)
     for i in matches:
         pmlname = "../Plots/" + folder + "/" + i.rtt_contact.residue1.id + str(i.rtt_contact.residue1.parameter) + "--" + i.rtt_contact.residue2.id + str(i.rtt_contact.residue2.parameter) + "_x_" + i.stc_contact.residue1.id + str(i.stc_contact.residue1.parameter) + "--" + i.stc_contact.residue2.id + str(i.stc_contact.residue2.parameter) + ".pml"

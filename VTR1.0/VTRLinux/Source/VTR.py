@@ -11,7 +11,7 @@ while (1):
      os.system("echo VTR Geometric v 1.1\n")
      os.system("echo ____________________________________________________________\n")
      os.system("echo Proteins in directory: ")
-     os.system("find . -maxdepth 1 -not -type d")
+     os.system("find ../Data -maxdepth 1 -not -type d")
      os.system("echo  ___________________________________________________________\n")
      rtt_protein = input("Choose the first:")
      while (not(os.path.exists("../Data/" + rtt_protein + ".pdb"))):
