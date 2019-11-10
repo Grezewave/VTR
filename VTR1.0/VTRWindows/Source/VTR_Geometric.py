@@ -5,12 +5,12 @@
 #Match skill improved and refined
 #Most detailed analisys avaiable(by residue and color scale)
 
-import os
 import sys
 import Classify
 import Contacts
 import matplotlib.pyplot as plt
 import numpy
+import Winfunct
 
 class match:
     def __init__(self,rtt_contact,stc_contact):
@@ -197,11 +197,7 @@ def detailed_ploter(rtt_path, stc_path, matches, cutoff):
     pml.close()
 
 def multi_ploter(rtt_path, stc_path, matches, cutoff):
-    folder = rtt_path[-15:-11] + "_x_" + stc_path[-8:-4]
-    pmlname = "rd ..\\Plots\\" + folder + " /s /q"
-    os.system(pmlname)
-    pmlname = "md ..\\Plots\\" + folder
-    os.system(pmlname)
+    folder = Winfunct.create_dir(rtt_path,stc_path)
     for i in matches:
         pmlname = "../Plots/" + folder + "/" + i.rtt_contact.residue1.id + str(i.rtt_contact.residue1.parameter) + "--" + i.rtt_contact.residue2.id + str(i.rtt_contact.residue2.parameter) + "_x_" + i.stc_contact.residue1.id + str(i.stc_contact.residue1.parameter) + "--" + i.stc_contact.residue2.id + str(i.stc_contact.residue2.parameter) + ".pml"
         pml = open(pmlname,'a')
@@ -324,7 +320,7 @@ def main():
     protein1 = sys.argv[1]
     protein2 = sys.argv[2]
     
-    path = TMAlign(protein1,protein2)
+    path = Winfunct.TMAlign(protein1,protein2)
     rtt_name = "../Data/" + path + protein1[protein1.rfind("/"):-4] + "_rotate.pdb"
     rtt_protein = Classify.classify(rtt_name)
     stc_protein = Classify.classify(protein2)
