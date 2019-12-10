@@ -1,0 +1,1125 @@
+OXYGEN TRANSPORT                        26-FEB-98   1A6M             
+OXY-MYOGLOBIN, ATOMIC RESOLUTION:
+
+0 - A LEU 2 CB   VS A TRP 7 CD1 
+Distance: 3.795194 - Hydrophobic, 
+1 - A LEU 2 CB   VS A TRP 7 CE2 
+Distance: 3.567992 - Hydrophobic, 
+2 - A SER 3 N    VS A GLU 6 OE1 
+Distance: 2.886723 - Hydrogen Bonds, 
+3 - A SER 3 O    VS A GLU 6 N   
+Distance: 3.074971 - Hydrogen Bonds, 
+4 - A SER 3 O    VS A TRP 7 N   
+Distance: 2.909653 - Hydrogen Bonds, 
+5 - A GLU 4 O    VS A GLN 8 N   
+Distance: 2.917893 - Hydrogen Bonds, 
+6 - A GLY 5 O    VS A LEU 9 N   
+Distance: 3.148104 - Hydrogen Bonds, 
+7 - A GLU 6 O    VS A LEU 9 N   
+Distance: 3.115283 - Hydrogen Bonds, 
+8 - A GLU 6 O    VS A VAL 10 N   
+Distance: 3.011298 - Hydrogen Bonds, 
+9 - A TRP 7 O    VS A LEU 11 N   
+Distance: 2.861725 - Hydrogen Bonds, 
+10 - A TRP 7 CD2  VS A LYS 79 CB  
+Distance: 3.718753 - Hydrophobic, 
+11 - A TRP 7 CE2  VS A LYS 79 CB  
+Distance: 3.666566 - Hydrophobic, 
+12 - A TRP 7 CD1  VS A HIS 81 CD2 
+Distance: 7.392678 - Aromatic Stacking, 
+13 - A TRP 7 CD1  VS A HIS 81 NE2 
+Distance: 7.693405 - Aromatic Stacking, 
+14 - A TRP 7 CD2  VS A HIS 81 CD2 
+Distance: 7.942858 - Aromatic Stacking, 
+15 - A TRP 7 NE1  VS A HIS 81 CG  
+Distance: 7.839538 - Aromatic Stacking, 
+16 - A TRP 7 NE1  VS A HIS 81 CD2 
+Distance: 6.726427 - Aromatic Stacking, 
+17 - A TRP 7 NE1  VS A HIS 81 NE2 
+Distance: 7.083431 - Aromatic Stacking, 
+18 - A TRP 7 CE2  VS A HIS 81 CD2 
+Distance: 7.103305 - Aromatic Stacking, 
+19 - A TRP 7 CE2  VS A HIS 81 NE2 
+Distance: 7.685528 - Aromatic Stacking, 
+20 - A TRP 7 CZ2  VS A HIS 81 CG  
+Distance: 7.877671 - Aromatic Stacking, 
+21 - A TRP 7 CZ2  VS A HIS 81 CD2 
+Distance: 7.086696 - Aromatic Stacking, 
+22 - A TRP 7 CZ2  VS A HIS 81 NE2 
+Distance: 7.782172 - Aromatic Stacking, 
+23 - A TRP 7 CH2  VS A HIS 81 CD2 
+Distance: 7.889084 - Aromatic Stacking, 
+24 - A TRP 7 CE2  VS A HIS 82 ND1 
+Distance: 7.384308 - Aromatic Stacking, 
+25 - A TRP 7 CE2  VS A HIS 82 CE1 
+Distance: 7.496057 - Aromatic Stacking, 
+26 - A TRP 7 CE3  VS A HIS 82 ND1 
+Distance: 7.763771 - Aromatic Stacking, 
+27 - A TRP 7 CZ2  VS A HIS 82 CG  
+Distance: 7.272239 - Aromatic Stacking, 
+28 - A TRP 7 CZ2  VS A HIS 82 ND1 
+Distance: 6.146672 - Aromatic Stacking, 
+29 - A TRP 7 CZ2  VS A HIS 82 CD2 
+Distance: 7.910239 - Aromatic Stacking, 
+30 - A TRP 7 CZ2  VS A HIS 82 CE1 
+Distance: 6.175606 - Aromatic Stacking, 
+31 - A TRP 7 CZ2  VS A HIS 82 NE2 
+Distance: 7.258294 - Aromatic Stacking, 
+32 - A TRP 7 CZ3  VS A HIS 82 CG  
+Distance: 7.793062 - Aromatic Stacking, 
+33 - A TRP 7 CZ3  VS A HIS 82 ND1 
+Distance: 6.569157 - Aromatic Stacking, 
+34 - A TRP 7 CZ3  VS A HIS 82 CE1 
+Distance: 6.835465 - Aromatic Stacking, 
+35 - A TRP 7 CH2  VS A HIS 82 CG  
+Distance: 6.893947 - Aromatic Stacking, 
+36 - A TRP 7 CH2  VS A HIS 82 ND1 
+Distance: 5.662277 - Aromatic Stacking, 
+37 - A TRP 7 CH2  VS A HIS 82 CD2 
+Distance: 7.644280 - Aromatic Stacking, 
+38 - A TRP 7 CH2  VS A HIS 82 CE1 
+Distance: 5.778851 - Aromatic Stacking, 
+39 - A TRP 7 CH2  VS A HIS 82 NE2 
+Distance: 6.998885 - Aromatic Stacking, 
+40 - A GLN 8 O    VS A HIS 12 N   
+Distance: 2.888324 - Hydrogen Bonds, 
+41 - A VAL 10 O    VS A TRP 14 N   
+Distance: 2.972993 - Hydrogen Bonds, 
+42 - A LEU 11 O    VS A ALA 15 N   
+Distance: 2.946803 - Hydrogen Bonds, 
+43 - A HIS 12 ND1  VS A LYS 16 NZ  
+Distance: 5.779020 - Repulsive, 
+44 - A HIS 12 NE2  VS A LYS 16 NZ  
+Distance: 4.595000 - Repulsive, 
+45 - A HIS 12 ND1  VS A ASP 122 OD1 
+Distance: 4.969195 - Atractive, 
+46 - A HIS 12 NE2  VS A ASP 122 OD1 
+Distance: 2.878444 - Atractive, Hydrogen Bonds, 
+47 - A HIS 12 NE2  VS A ASP 122 OD2 
+Distance: 4.292535 - Atractive, 
+48 - A VAL 13 O    VS A LYS 16 N   
+Distance: 2.967117 - Hydrogen Bonds, 
+49 - A VAL 13 O    VS A VAL 17 N   
+Distance: 3.179775 - Hydrogen Bonds, 
+50 - A VAL 13 CG1  VS A MET 131 CE  
+Distance: 3.731465 - Hydrophobic, 
+51 - A TRP 14 O    VS A VAL 17 N   
+Distance: 2.988084 - Hydrogen Bonds, 
+52 - A TRP 14 O    VS A GLU 18 N   
+Distance: 3.007212 - Hydrogen Bonds, 
+53 - A TRP 14 CD1  VS A GLU 18 CG  
+Distance: 3.767123 - Hydrophobic, 
+54 - A TRP 14 CD2  VS A HIS 24 CG  
+Distance: 7.995541 - Aromatic Stacking, 
+55 - A TRP 14 CD2  VS A HIS 24 CD2 
+Distance: 7.689557 - Aromatic Stacking, 
+56 - A TRP 14 CE2  VS A HIS 24 CG  
+Distance: 7.879768 - Aromatic Stacking, 
+57 - A TRP 14 CE2  VS A HIS 24 CD2 
+Distance: 7.810313 - Aromatic Stacking, 
+58 - A TRP 14 CE3  VS A HIS 24 CG  
+Distance: 7.663382 - Aromatic Stacking, 
+59 - A TRP 14 CE3  VS A HIS 24 CD2 
+Distance: 7.210114 - Aromatic Stacking, 
+60 - A TRP 14 CE3  VS A HIS 24 NE2 
+Distance: 7.642956 - Aromatic Stacking, 
+61 - A TRP 14 CZ2  VS A HIS 24 CG  
+Distance: 7.451845 - Aromatic Stacking, 
+62 - A TRP 14 CZ2  VS A HIS 24 CD2 
+Distance: 7.508875 - Aromatic Stacking, 
+63 - A TRP 14 CZ3  VS A HIS 24 CG  
+Distance: 7.165564 - Aromatic Stacking, 
+64 - A TRP 14 CZ3  VS A HIS 24 ND1 
+Distance: 7.980169 - Aromatic Stacking, 
+65 - A TRP 14 CZ3  VS A HIS 24 CD2 
+Distance: 6.819905 - Aromatic Stacking, 
+66 - A TRP 14 CZ3  VS A HIS 24 NE2 
+Distance: 7.489587 - Aromatic Stacking, 
+67 - A TRP 14 CH2  VS A HIS 24 CG  
+Distance: 7.074258 - Aromatic Stacking, 
+68 - A TRP 14 CH2  VS A HIS 24 ND1 
+Distance: 7.850973 - Aromatic Stacking, 
+69 - A TRP 14 CH2  VS A HIS 24 CD2 
+Distance: 6.988279 - Aromatic Stacking, 
+70 - A TRP 14 CH2  VS A HIS 24 NE2 
+Distance: 7.746944 - Aromatic Stacking, 
+71 - A TRP 14 CE3  VS A LEU 76 CD1 
+Distance: 3.691038 - Hydrophobic, 
+72 - A TRP 14 CE3  VS A HIS 119 CD2 
+Distance: 7.864559 - Aromatic Stacking, 
+73 - A TRP 14 CE3  VS A HIS 119 NE2 
+Distance: 7.935893 - Aromatic Stacking, 
+74 - A TRP 14 CE3  VS A PHE 123 CE1 
+Distance: 7.908548 - Aromatic Stacking, 
+75 - A LYS 16 CB   VS A HIS 119 CE1 
+Distance: 3.616100 - Hydrophobic, 
+76 - A LYS 16 NZ   VS A ASP 122 OD1 
+Distance: 4.933120 - Atractive, 
+77 - A LYS 16 NZ   VS A ASP 122 OD2 
+Distance: 4.048993 - Atractive, 
+78 - A VAL 17 O    VS A ALA 19 N   
+Distance: 2.968584 - Hydrogen Bonds, 
+79 - A VAL 17 O    VS A ASP 20 N   
+Distance: 2.934358 - Hydrogen Bonds, 
+80 - A VAL 17 CG2  VS A HIS 24 CD2 
+Distance: 3.795006 - Hydrophobic, 
+81 - A GLU 18 OE1  VS A LYS 77 NZ  
+Distance: 2.918427 - Atractive, Hydrogen Bonds, 
+82 - A GLU 18 OE2  VS A LYS 77 NZ  
+Distance: 2.765052 - Atractive, Hydrogen Bonds, 
+83 - A ASP 20 OD1  VS A GLY 23 N   
+Distance: 2.968900 - Hydrogen Bonds, 
+84 - A ASP 20 O    VS A HIS 24 N   
+Distance: 3.158661 - Hydrogen Bonds, 
+85 - A ASP 20 O    VS A HIS 24 ND1 
+Distance: 2.653211 - Hydrogen Bonds, 
+86 - A ASP 20 OD1  VS A HIS 24 ND1 
+Distance: 5.065327 - Atractive, 
+87 - A ASP 20 OD2  VS A HIS 24 ND1 
+Distance: 4.486975 - Atractive, 
+88 - A ASP 20 OD2  VS A HIS 24 NE2 
+Distance: 5.986862 - Atractive, 
+89 - A VAL 21 O    VS A GLY 25 N   
+Distance: 2.876949 - Hydrogen Bonds, 
+90 - A ALA 22 O    VS A GLY 25 N   
+Distance: 3.147068 - Hydrogen Bonds, 
+91 - A ALA 22 O    VS A GLN 26 N   
+Distance: 2.987024 - Hydrogen Bonds, 
+92 - A ALA 22 CB   VS A VAL 66 CG2 
+Distance: 3.643473 - Hydrophobic, 
+93 - A GLY 23 O    VS A ASP 27 N   
+Distance: 3.111393 - Hydrogen Bonds, 
+94 - A HIS 24 O    VS A ILE 28 N   
+Distance: 2.885298 - Hydrogen Bonds, 
+95 - A HIS 24 CB   VS A LEU 69 CD1 
+Distance: 3.623988 - Hydrophobic, 
+96 - A HIS 24 CG   VS A HIS 119 CG  
+Distance: 6.947697 - Aromatic Stacking, 
+97 - A HIS 24 CG   VS A HIS 119 ND1 
+Distance: 6.890707 - Aromatic Stacking, 
+98 - A HIS 24 CG   VS A HIS 119 CD2 
+Distance: 5.749998 - Aromatic Stacking, 
+99 - A HIS 24 CG   VS A HIS 119 CE1 
+Distance: 5.699210 - Aromatic Stacking, 
+100 - A HIS 24 CG   VS A HIS 119 NE2 
+Distance: 4.835574 - Aromatic Stacking, 
+101 - A HIS 24 ND1  VS A HIS 119 CG  
+Distance: 6.855831 - Aromatic Stacking, 
+102 - A HIS 24 ND1  VS A HIS 119 ND1 
+Distance: 6.535964 - Aromatic Stacking, 
+103 - A HIS 24 ND1  VS A HIS 119 CD2 
+Distance: 5.808791 - Aromatic Stacking, 
+104 - A HIS 24 ND1  VS A HIS 119 CE1 
+Distance: 5.242582 - Aromatic Stacking, 
+105 - A HIS 24 ND1  VS A HIS 119 NE2 
+Distance: 4.665971 - Repulsive, Aromatic Stacking, 
+106 - A HIS 24 CD2  VS A HIS 119 CG  
+Distance: 5.775211 - Aromatic Stacking, 
+107 - A HIS 24 CD2  VS A HIS 119 ND1 
+Distance: 5.876690 - Aromatic Stacking, 
+108 - A HIS 24 CD2  VS A HIS 119 CD2 
+Distance: 4.528925 - Aromatic Stacking, 
+109 - A HIS 24 CD2  VS A HIS 119 CE1 
+Distance: 4.796818 - Aromatic Stacking, 
+110 - A HIS 24 CD2  VS A HIS 119 NE2 
+Distance: 3.767058 - Aromatic Stacking, 
+111 - A HIS 24 CE1  VS A HIS 119 CG  
+Distance: 5.600970 - Aromatic Stacking, 
+112 - A HIS 24 CE1  VS A HIS 119 ND1 
+Distance: 5.207316 - Aromatic Stacking, 
+113 - A HIS 24 CE1  VS A HIS 119 CD2 
+Distance: 4.645265 - Aromatic Stacking, 
+114 - A HIS 24 CE1  VS A HIS 119 CE1 
+Distance: 3.905041 - Aromatic Stacking, 
+115 - A HIS 24 CE1  VS A HIS 119 NE2 
+Distance: 3.421974 - Aromatic Stacking, 
+116 - A HIS 24 NE2  VS A HIS 119 CG  
+Distance: 4.774796 - Aromatic Stacking, 
+117 - A HIS 24 NE2  VS A HIS 119 ND1 
+Distance: 4.669586 - Repulsive, Aromatic Stacking, 
+118 - A HIS 24 NE2  VS A HIS 119 CD2 
+Distance: 3.657915 - Aromatic Stacking, 
+119 - A HIS 24 NE2  VS A HIS 119 CE1 
+Distance: 3.502952 - Aromatic Stacking, 
+120 - A HIS 24 NE2  VS A HIS 119 NE2 
+Distance: 2.637640 - Repulsive, 
+121 - A GLY 25 O    VS A LEU 29 N   
+Distance: 2.935205 - Hydrogen Bonds, 
+122 - A GLN 26 O    VS A ILE 30 N   
+Distance: 2.907827 - Hydrogen Bonds, 
+123 - A ASP 27 O    VS A ARG 31 N   
+Distance: 3.009492 - Hydrogen Bonds, 
+124 - A ASP 27 CB   VS A VAL 114 CG2 
+Distance: 3.778116 - Hydrophobic, 
+125 - A ILE 28 O    VS A LEU 32 N   
+Distance: 2.928366 - Hydrogen Bonds, 
+126 - A ILE 28 CG1  VS A VAL 114 CB  
+Distance: 3.717150 - Hydrophobic, 
+127 - A ILE 28 CG1  VS A VAL 114 CG2 
+Distance: 3.722739 - Hydrophobic, 
+128 - A LEU 29 O    VS A PHE 33 N   
+Distance: 2.855313 - Hydrogen Bonds, 
+129 - A ILE 30 O    VS A LYS 34 N   
+Distance: 2.899841 - Hydrogen Bonds, 
+130 - A ILE 30 CG2  VS A LYS 34 CD  
+Distance: 3.740608 - Hydrophobic, 
+131 - A ILE 30 CG1  VS A MET 55 CB  
+Distance: 3.733261 - Hydrophobic, 
+132 - A ARG 31 O    VS A SER 35 N   
+Distance: 2.861083 - Hydrogen Bonds, 
+133 - A ARG 31 O    VS A SER 35 OG  
+Distance: 3.151133 - Hydrogen Bonds, 
+134 - A LEU 32 O    VS A HIS 36 N   
+Distance: 2.869190 - Hydrogen Bonds, 
+135 - A LEU 32 CD1  VS A PHE 106 CB  
+Distance: 3.615408 - Hydrophobic, 
+136 - A PHE 33 CD2  VS A LEU 40 CD1 
+Distance: 3.765402 - Hydrophobic, 
+137 - A PHE 33 CG   VS A PHE 43 CG  
+Distance: 6.842976 - Aromatic Stacking, 
+138 - A PHE 33 CG   VS A PHE 43 CD1 
+Distance: 5.993550 - Aromatic Stacking, 
+139 - A PHE 33 CG   VS A PHE 43 CD2 
+Distance: 7.655651 - Aromatic Stacking, 
+140 - A PHE 33 CG   VS A PHE 43 CE1 
+Distance: 6.018946 - Aromatic Stacking, 
+141 - A PHE 33 CG   VS A PHE 43 CE2 
+Distance: 7.662568 - Aromatic Stacking, 
+142 - A PHE 33 CG   VS A PHE 43 CZ  
+Distance: 6.915459 - Aromatic Stacking, 
+143 - A PHE 33 CD1  VS A PHE 43 CG  
+Distance: 5.980977 - Aromatic Stacking, 
+144 - A PHE 33 CD1  VS A PHE 43 CD1 
+Distance: 4.965108 - Aromatic Stacking, 
+145 - A PHE 33 CD1  VS A PHE 43 CD2 
+Distance: 6.802546 - Aromatic Stacking, 
+146 - A PHE 33 CD1  VS A PHE 43 CE1 
+Distance: 4.860914 - Aromatic Stacking, 
+147 - A PHE 33 CD1  VS A PHE 43 CE2 
+Distance: 6.708455 - Aromatic Stacking, 
+148 - A PHE 33 CD1  VS A PHE 43 CZ  
+Distance: 5.824030 - Aromatic Stacking, 
+149 - A PHE 33 CD2  VS A PHE 43 CG  
+Distance: 6.663388 - Aromatic Stacking, 
+150 - A PHE 33 CD2  VS A PHE 43 CD1 
+Distance: 6.053486 - Aromatic Stacking, 
+151 - A PHE 33 CD2  VS A PHE 43 CD2 
+Distance: 7.349854 - Aromatic Stacking, 
+152 - A PHE 33 CD2  VS A PHE 43 CE1 
+Distance: 6.147548 - Aromatic Stacking, 
+153 - A PHE 33 CD2  VS A PHE 43 CE2 
+Distance: 7.422849 - Aromatic Stacking, 
+154 - A PHE 33 CD2  VS A PHE 43 CZ  
+Distance: 6.879484 - Aromatic Stacking, 
+155 - A PHE 33 CE1  VS A PHE 43 CG  
+Distance: 4.771116 - Aromatic Stacking, 
+156 - A PHE 33 CE1  VS A PHE 43 CD1 
+Distance: 3.807893 - Aromatic Stacking, 
+157 - A PHE 33 CE1  VS A PHE 43 CD2 
+Distance: 5.484128 - Aromatic Stacking, 
+158 - A PHE 33 CE1  VS A PHE 43 CE1 
+Distance: 3.629481 - Hydrophobic, Aromatic Stacking, 
+159 - A PHE 33 CE1  VS A PHE 43 CE2 
+Distance: 5.346029 - Aromatic Stacking, 
+160 - A PHE 33 CE1  VS A PHE 43 CZ  
+Distance: 4.510956 - Aromatic Stacking, 
+161 - A PHE 33 CE2  VS A PHE 43 CG  
+Distance: 5.610597 - Aromatic Stacking, 
+162 - A PHE 33 CE2  VS A PHE 43 CD1 
+Distance: 5.160709 - Aromatic Stacking, 
+163 - A PHE 33 CE2  VS A PHE 43 CD2 
+Distance: 6.161380 - Aromatic Stacking, 
+164 - A PHE 33 CE2  VS A PHE 43 CE1 
+Distance: 5.251837 - Aromatic Stacking, 
+165 - A PHE 33 CE2  VS A PHE 43 CE2 
+Distance: 6.238899 - Aromatic Stacking, 
+166 - A PHE 33 CE2  VS A PHE 43 CZ  
+Distance: 5.835946 - Aromatic Stacking, 
+167 - A PHE 33 CZ   VS A PHE 43 CG  
+Distance: 4.534214 - Aromatic Stacking, 
+168 - A PHE 33 CZ   VS A PHE 43 CD1 
+Distance: 3.938123 - Aromatic Stacking, 
+169 - A PHE 33 CZ   VS A PHE 43 CD2 
+Distance: 5.076444 - Aromatic Stacking, 
+170 - A PHE 33 CZ   VS A PHE 43 CE1 
+Distance: 3.892272 - Aromatic Stacking, 
+171 - A PHE 33 CZ   VS A PHE 43 CE2 
+Distance: 5.037398 - Aromatic Stacking, 
+172 - A PHE 33 CZ   VS A PHE 43 CZ  
+Distance: 4.508766 - Aromatic Stacking, 
+173 - A PHE 33 CG   VS A PHE 46 CG  
+Distance: 6.813721 - Aromatic Stacking, 
+174 - A PHE 33 CG   VS A PHE 46 CD1 
+Distance: 7.798124 - Aromatic Stacking, 
+175 - A PHE 33 CG   VS A PHE 46 CD2 
+Distance: 6.767030 - Aromatic Stacking, 
+176 - A PHE 33 CG   VS A PHE 46 CE2 
+Distance: 7.712595 - Aromatic Stacking, 
+177 - A PHE 33 CD1  VS A PHE 46 CG  
+Distance: 6.837847 - Aromatic Stacking, 
+178 - A PHE 33 CD1  VS A PHE 46 CD1 
+Distance: 7.962279 - Aromatic Stacking, 
+179 - A PHE 33 CD1  VS A PHE 46 CD2 
+Distance: 6.557055 - Aromatic Stacking, 
+180 - A PHE 33 CD1  VS A PHE 46 CE2 
+Distance: 7.471782 - Aromatic Stacking, 
+181 - A PHE 33 CD2  VS A PHE 46 CG  
+Distance: 5.836740 - Aromatic Stacking, 
+182 - A PHE 33 CD2  VS A PHE 46 CD1 
+Distance: 6.691380 - Aromatic Stacking, 
+183 - A PHE 33 CD2  VS A PHE 46 CD2 
+Distance: 5.886865 - Aromatic Stacking, 
+184 - A PHE 33 CD2  VS A PHE 46 CE1 
+Distance: 7.489371 - Aromatic Stacking, 
+185 - A PHE 33 CD2  VS A PHE 46 CE2 
+Distance: 6.779423 - Aromatic Stacking, 
+186 - A PHE 33 CD2  VS A PHE 46 CZ  
+Distance: 7.526929 - Aromatic Stacking, 
+187 - A PHE 33 CE1  VS A PHE 46 CG  
+Distance: 5.942067 - Aromatic Stacking, 
+188 - A PHE 33 CE1  VS A PHE 46 CD1 
+Distance: 7.116564 - Aromatic Stacking, 
+189 - A PHE 33 CE1  VS A PHE 46 CD2 
+Distance: 5.458538 - Aromatic Stacking, 
+190 - A PHE 33 CE1  VS A PHE 46 CE1 
+Distance: 7.782883 - Aromatic Stacking, 
+191 - A PHE 33 CE1  VS A PHE 46 CE2 
+Distance: 6.296463 - Aromatic Stacking, 
+192 - A PHE 33 CE1  VS A PHE 46 CZ  
+Distance: 7.425403 - Aromatic Stacking, 
+193 - A PHE 33 CE2  VS A PHE 46 CG  
+Distance: 4.724609 - Aromatic Stacking, 
+194 - A PHE 33 CE2  VS A PHE 46 CD1 
+Distance: 5.624835 - Aromatic Stacking, 
+195 - A PHE 33 CE2  VS A PHE 46 CD2 
+Distance: 4.614157 - Aromatic Stacking, 
+196 - A PHE 33 CE2  VS A PHE 46 CE1 
+Distance: 6.325877 - Aromatic Stacking, 
+197 - A PHE 33 CE2  VS A PHE 46 CE2 
+Distance: 5.445989 - Aromatic Stacking, 
+198 - A PHE 33 CE2  VS A PHE 46 CZ  
+Distance: 6.246758 - Aromatic Stacking, 
+199 - A PHE 33 CZ   VS A PHE 46 CG  
+Distance: 4.780991 - Aromatic Stacking, 
+200 - A PHE 33 CZ   VS A PHE 46 CD1 
+Distance: 5.869202 - Aromatic Stacking, 
+201 - A PHE 33 CZ   VS A PHE 46 CD2 
+Distance: 4.323992 - Aromatic Stacking, 
+202 - A PHE 33 CZ   VS A PHE 46 CE1 
+Distance: 6.481752 - Aromatic Stacking, 
+203 - A PHE 33 CZ   VS A PHE 46 CE2 
+Distance: 5.120417 - Aromatic Stacking, 
+204 - A PHE 33 CZ   VS A PHE 46 CZ  
+Distance: 6.159551 - Aromatic Stacking, 
+205 - A LYS 34 NZ   VS A GLU 52 OE1 
+Distance: 2.457859 - Atractive, Hydrogen Bonds, 
+206 - A LYS 34 NZ   VS A GLU 52 OE2 
+Distance: 4.309705 - Atractive, 
+207 - A HIS 36 O    VS A GLU 38 N   
+Distance: 2.995080 - Hydrogen Bonds, 
+208 - A HIS 36 ND1  VS A GLU 38 OE1 
+Distance: 4.672868 - Atractive, 
+209 - A HIS 36 ND1  VS A GLU 38 OE2 
+Distance: 4.362055 - Atractive, 
+210 - A HIS 36 O    VS A THR 39 N   
+Distance: 2.875713 - Hydrogen Bonds, 
+211 - A HIS 36 O    VS A THR 39 OG1 
+Distance: 2.726283 - Hydrogen Bonds, 
+212 - A HIS 36 CG   VS A TYR 103 CG  
+Distance: 7.381077 - Aromatic Stacking, 
+213 - A HIS 36 CG   VS A TYR 103 CD1 
+Distance: 7.219120 - Aromatic Stacking, 
+214 - A HIS 36 CG   VS A TYR 103 CD2 
+Distance: 7.889411 - Aromatic Stacking, 
+215 - A HIS 36 CG   VS A TYR 103 CE1 
+Distance: 7.508367 - Aromatic Stacking, 
+216 - A HIS 36 CG   VS A TYR 103 CZ  
+Distance: 7.968141 - Aromatic Stacking, 
+217 - A HIS 36 ND1  VS A TYR 103 CG  
+Distance: 7.773808 - Aromatic Stacking, 
+218 - A HIS 36 ND1  VS A TYR 103 CD1 
+Distance: 7.378312 - Aromatic Stacking, 
+219 - A HIS 36 ND1  VS A TYR 103 CE1 
+Distance: 7.599252 - Aromatic Stacking, 
+220 - A HIS 36 CG   VS A PHE 106 CG  
+Distance: 3.631234 - Hydrophobic, Aromatic Stacking, 
+221 - A HIS 36 CG   VS A PHE 106 CD1 
+Distance: 4.054907 - Aromatic Stacking, 
+222 - A HIS 36 CG   VS A PHE 106 CD2 
+Distance: 3.629634 - Hydrophobic, Aromatic Stacking, 
+223 - A HIS 36 CG   VS A PHE 106 CE1 
+Distance: 4.450069 - Aromatic Stacking, 
+224 - A HIS 36 CG   VS A PHE 106 CE2 
+Distance: 4.043392 - Aromatic Stacking, 
+225 - A HIS 36 CG   VS A PHE 106 CZ  
+Distance: 4.422861 - Aromatic Stacking, 
+226 - A HIS 36 ND1  VS A PHE 106 CG  
+Distance: 3.673258 - Aromatic Stacking, 
+227 - A HIS 36 ND1  VS A PHE 106 CD1 
+Distance: 3.642976 - Aromatic Stacking, 
+228 - A HIS 36 ND1  VS A PHE 106 CD2 
+Distance: 3.727837 - Aromatic Stacking, 
+229 - A HIS 36 ND1  VS A PHE 106 CE1 
+Distance: 3.684157 - Aromatic Stacking, 
+230 - A HIS 36 ND1  VS A PHE 106 CE2 
+Distance: 3.753777 - Aromatic Stacking, 
+231 - A HIS 36 ND1  VS A PHE 106 CZ  
+Distance: 3.720183 - Aromatic Stacking, 
+232 - A HIS 36 CD2  VS A PHE 106 CB  
+Distance: 3.635447 - Hydrophobic, 
+233 - A HIS 36 CD2  VS A PHE 106 CG  
+Distance: 3.691974 - Hydrophobic, Aromatic Stacking, 
+234 - A HIS 36 CD2  VS A PHE 106 CD1 
+Distance: 4.045586 - Aromatic Stacking, 
+235 - A HIS 36 CD2  VS A PHE 106 CD2 
+Distance: 4.146989 - Aromatic Stacking, 
+236 - A HIS 36 CD2  VS A PHE 106 CE1 
+Distance: 4.772971 - Aromatic Stacking, 
+237 - A HIS 36 CD2  VS A PHE 106 CE2 
+Distance: 4.838076 - Aromatic Stacking, 
+238 - A HIS 36 CD2  VS A PHE 106 CZ  
+Distance: 5.101053 - Aromatic Stacking, 
+239 - A HIS 36 CE1  VS A PHE 106 CG  
+Distance: 3.756567 - Hydrophobic, Aromatic Stacking, 
+240 - A HIS 36 CE1  VS A PHE 106 CD1 
+Distance: 3.387434 - Hydrophobic, Aromatic Stacking, 
+241 - A HIS 36 CE1  VS A PHE 106 CD2 
+Distance: 4.255966 - Aromatic Stacking, 
+242 - A HIS 36 CE1  VS A PHE 106 CE1 
+Distance: 3.599416 - Hydrophobic, Aromatic Stacking, 
+243 - A HIS 36 CE1  VS A PHE 106 CE2 
+Distance: 4.417336 - Aromatic Stacking, 
+244 - A HIS 36 CE1  VS A PHE 106 CZ  
+Distance: 4.096334 - Aromatic Stacking, 
+245 - A HIS 36 NE2  VS A PHE 106 CG  
+Distance: 3.769726 - Aromatic Stacking, 
+246 - A HIS 36 NE2  VS A PHE 106 CD1 
+Distance: 3.646609 - Aromatic Stacking, 
+247 - A HIS 36 NE2  VS A PHE 106 CD2 
+Distance: 4.491308 - Aromatic Stacking, 
+248 - A HIS 36 NE2  VS A PHE 106 CE1 
+Distance: 4.296242 - Aromatic Stacking, 
+249 - A HIS 36 NE2  VS A PHE 106 CE2 
+Distance: 5.019216 - Aromatic Stacking, 
+250 - A HIS 36 NE2  VS A PHE 106 CZ  
+Distance: 4.911913 - Aromatic Stacking, 
+251 - A PRO 37 O    VS A THR 39 N   
+Distance: 3.148318 - Hydrogen Bonds, 
+252 - A PRO 37 O    VS A LEU 40 N   
+Distance: 3.142137 - Hydrogen Bonds, 
+253 - A GLU 38 CG   VS A TYR 103 CZ  
+Distance: 3.573649 - Hydrophobic, 
+254 - A THR 39 O    VS A LYS 42 N   
+Distance: 3.119934 - Hydrogen Bonds, 
+255 - A LEU 40 O    VS A LYS 42 N   
+Distance: 3.106975 - Hydrogen Bonds, 
+256 - A LEU 40 O    VS A PHE 43 N   
+Distance: 2.981471 - Hydrogen Bonds, 
+257 - A LEU 40 CD1  VS A PHE 46 CB  
+Distance: 3.767862 - Hydrophobic, 
+258 - A LYS 42 NZ   VS A LYS 98 O   
+Distance: 2.762286 - Hydrogen Bonds, 
+259 - A LYS 42 CG   VS A TYR 103 CE2 
+Distance: 3.761962 - Hydrophobic, 
+260 - A PHE 43 O    VS A ARG 45 N   
+Distance: 3.166641 - Hydrogen Bonds, 
+261 - A PHE 43 O    VS A PHE 46 N   
+Distance: 2.984417 - Hydrogen Bonds, 
+262 - A PHE 43 CB   VS A PHE 46 CD2 
+Distance: 3.648322 - Hydrophobic, 
+263 - A PHE 43 CG   VS A PHE 46 CG  
+Distance: 4.594133 - Aromatic Stacking, 
+264 - A PHE 43 CG   VS A PHE 46 CD1 
+Distance: 5.840045 - Aromatic Stacking, 
+265 - A PHE 43 CG   VS A PHE 46 CD2 
+Distance: 3.685829 - Hydrophobic, Aromatic Stacking, 
+266 - A PHE 43 CG   VS A PHE 46 CE1 
+Distance: 6.304115 - Aromatic Stacking, 
+267 - A PHE 43 CG   VS A PHE 46 CE2 
+Distance: 4.380704 - Aromatic Stacking, 
+268 - A PHE 43 CG   VS A PHE 46 CZ  
+Distance: 5.700144 - Aromatic Stacking, 
+269 - A PHE 43 CD1  VS A PHE 46 CG  
+Distance: 5.371480 - Aromatic Stacking, 
+270 - A PHE 43 CD1  VS A PHE 46 CD1 
+Distance: 6.688070 - Aromatic Stacking, 
+271 - A PHE 43 CD1  VS A PHE 46 CD2 
+Distance: 4.516132 - Aromatic Stacking, 
+272 - A PHE 43 CD1  VS A PHE 46 CE1 
+Distance: 7.231051 - Aromatic Stacking, 
+273 - A PHE 43 CD1  VS A PHE 46 CE2 
+Distance: 5.280911 - Aromatic Stacking, 
+274 - A PHE 43 CD1  VS A PHE 46 CZ  
+Distance: 6.638149 - Aromatic Stacking, 
+275 - A PHE 43 CD2  VS A PHE 46 CG  
+Distance: 4.763847 - Aromatic Stacking, 
+276 - A PHE 43 CD2  VS A PHE 46 CD1 
+Distance: 5.835230 - Aromatic Stacking, 
+277 - A PHE 43 CD2  VS A PHE 46 CD2 
+Distance: 3.592424 - Hydrophobic, Aromatic Stacking, 
+278 - A PHE 43 CD2  VS A PHE 46 CE1 
+Distance: 5.990112 - Aromatic Stacking, 
+279 - A PHE 43 CD2  VS A PHE 46 CE2 
+Distance: 3.833162 - Aromatic Stacking, 
+280 - A PHE 43 CD2  VS A PHE 46 CZ  
+Distance: 5.139026 - Aromatic Stacking, 
+281 - A PHE 43 CE1  VS A PHE 46 CG  
+Distance: 6.124360 - Aromatic Stacking, 
+282 - A PHE 43 CE1  VS A PHE 46 CD1 
+Distance: 7.379673 - Aromatic Stacking, 
+283 - A PHE 43 CE1  VS A PHE 46 CD2 
+Distance: 5.092898 - Aromatic Stacking, 
+284 - A PHE 43 CE1  VS A PHE 46 CE1 
+Distance: 7.750441 - Aromatic Stacking, 
+285 - A PHE 43 CE1  VS A PHE 46 CE2 
+Distance: 5.606708 - Aromatic Stacking, 
+286 - A PHE 43 CE1  VS A PHE 46 CZ  
+Distance: 6.981546 - Aromatic Stacking, 
+287 - A PHE 43 CE2  VS A PHE 46 CG  
+Distance: 5.636821 - Aromatic Stacking, 
+288 - A PHE 43 CE2  VS A PHE 46 CD1 
+Distance: 6.658071 - Aromatic Stacking, 
+289 - A PHE 43 CE2  VS A PHE 46 CD2 
+Distance: 4.337166 - Aromatic Stacking, 
+290 - A PHE 43 CE2  VS A PHE 46 CE1 
+Distance: 6.654170 - Aromatic Stacking, 
+291 - A PHE 43 CE2  VS A PHE 46 CE2 
+Distance: 4.320496 - Aromatic Stacking, 
+292 - A PHE 43 CE2  VS A PHE 46 CZ  
+Distance: 5.624939 - Aromatic Stacking, 
+293 - A PHE 43 CZ   VS A PHE 46 CG  
+Distance: 6.281393 - Aromatic Stacking, 
+294 - A PHE 43 CZ   VS A PHE 46 CD1 
+Distance: 7.406763 - Aromatic Stacking, 
+295 - A PHE 43 CZ   VS A PHE 46 CD2 
+Distance: 5.057186 - Aromatic Stacking, 
+296 - A PHE 43 CZ   VS A PHE 46 CE1 
+Distance: 7.531243 - Aromatic Stacking, 
+297 - A PHE 43 CZ   VS A PHE 46 CE2 
+Distance: 5.225686 - Aromatic Stacking, 
+298 - A PHE 43 CZ   VS A PHE 46 CZ  
+Distance: 6.567132 - Aromatic Stacking, 
+299 - A PHE 43 O    VS A LYS 47 N   
+Distance: 2.928140 - Hydrogen Bonds, 
+300 - A PHE 43 CE1  VS A HIS 93 CD2 
+Distance: 7.937755 - Aromatic Stacking, 
+301 - A PHE 43 CE1  VS A HIS 93 NE2 
+Distance: 7.776948 - Aromatic Stacking, 
+302 - A PHE 43 CE2  VS A HIS 93 CD2 
+Distance: 7.409236 - Aromatic Stacking, 
+303 - A PHE 43 CE2  VS A HIS 93 CE1 
+Distance: 7.799699 - Aromatic Stacking, 
+304 - A PHE 43 CE2  VS A HIS 93 NE2 
+Distance: 6.896429 - Aromatic Stacking, 
+305 - A PHE 43 CZ   VS A HIS 93 CD2 
+Distance: 7.106763 - Aromatic Stacking, 
+306 - A PHE 43 CZ   VS A HIS 93 CE1 
+Distance: 7.816658 - Aromatic Stacking, 
+307 - A PHE 43 CZ   VS A HIS 93 NE2 
+Distance: 6.761029 - Aromatic Stacking, 
+308 - A PHE 43 CD2  VS A HIS 97 CG  
+Distance: 7.522778 - Aromatic Stacking, 
+309 - A PHE 43 CD2  VS A HIS 97 ND1 
+Distance: 7.490801 - Aromatic Stacking, 
+310 - A PHE 43 CD2  VS A HIS 97 CD2 
+Distance: 7.883760 - Aromatic Stacking, 
+311 - A PHE 43 CD2  VS A HIS 97 CE1 
+Distance: 7.827471 - Aromatic Stacking, 
+312 - A PHE 43 CE2  VS A HIS 97 CG  
+Distance: 7.200486 - Aromatic Stacking, 
+313 - A PHE 43 CE2  VS A HIS 97 ND1 
+Distance: 7.366447 - Aromatic Stacking, 
+314 - A PHE 43 CE2  VS A HIS 97 CD2 
+Distance: 7.367436 - Aromatic Stacking, 
+315 - A PHE 43 CE2  VS A HIS 97 CE1 
+Distance: 7.623203 - Aromatic Stacking, 
+316 - A PHE 43 CE2  VS A HIS 97 NE2 
+Distance: 7.654184 - Aromatic Stacking, 
+317 - A PHE 43 CZ   VS A HIS 97 CG  
+Distance: 7.577080 - Aromatic Stacking, 
+318 - A PHE 43 CZ   VS A HIS 97 ND1 
+Distance: 7.960564 - Aromatic Stacking, 
+319 - A PHE 43 CZ   VS A HIS 97 CD2 
+Distance: 7.740505 - Aromatic Stacking, 
+320 - A PHE 43 CD1  VS A TYR 103 CD2 
+Distance: 7.864552 - Aromatic Stacking, 
+321 - A PHE 43 CD1  VS A TYR 103 CE2 
+Distance: 7.998113 - Aromatic Stacking, 
+322 - A PHE 43 CE1  VS A TYR 103 CD2 
+Distance: 7.378591 - Aromatic Stacking, 
+323 - A PHE 43 CE1  VS A TYR 103 CE2 
+Distance: 7.742555 - Aromatic Stacking, 
+324 - A ARG 45 NE   VS A ASP 60 OD2 
+Distance: 2.726997 - Hydrogen Bonds, 
+325 - A ARG 45 NH1  VS A ASP 60 OD1 
+Distance: 5.009363 - Atractive, 
+326 - A ARG 45 NH1  VS A ASP 60 OD2 
+Distance: 4.795740 - Atractive, 
+327 - A ARG 45 NH2  VS A ASP 60 OD1 
+Distance: 2.948790 - Atractive, Hydrogen Bonds, 
+328 - A ARG 45 NH2  VS A ASP 60 OD2 
+Distance: 3.380702 - Atractive, 
+329 - A PHE 46 O    VS A HIS 48 N   
+Distance: 2.986429 - Hydrogen Bonds, 
+330 - A PHE 46 CG   VS A HIS 48 CG  
+Distance: 7.222003 - Aromatic Stacking, 
+331 - A PHE 46 CG   VS A HIS 48 ND1 
+Distance: 6.144988 - Aromatic Stacking, 
+332 - A PHE 46 CG   VS A HIS 48 CD2 
+Distance: 7.589709 - Aromatic Stacking, 
+333 - A PHE 46 CG   VS A HIS 48 CE1 
+Distance: 5.924660 - Aromatic Stacking, 
+334 - A PHE 46 CG   VS A HIS 48 NE2 
+Distance: 6.828963 - Aromatic Stacking, 
+335 - A PHE 46 CD1  VS A HIS 48 CG  
+Distance: 6.863820 - Aromatic Stacking, 
+336 - A PHE 46 CD1  VS A HIS 48 ND1 
+Distance: 5.726168 - Aromatic Stacking, 
+337 - A PHE 46 CD1  VS A HIS 48 CD2 
+Distance: 7.054962 - Aromatic Stacking, 
+338 - A PHE 46 CD1  VS A HIS 48 CE1 
+Distance: 5.243568 - Aromatic Stacking, 
+339 - A PHE 46 CD1  VS A HIS 48 NE2 
+Distance: 6.104842 - Aromatic Stacking, 
+340 - A PHE 46 CD2  VS A HIS 48 ND1 
+Distance: 7.437151 - Aromatic Stacking, 
+341 - A PHE 46 CD2  VS A HIS 48 CE1 
+Distance: 7.243557 - Aromatic Stacking, 
+342 - A PHE 46 CE1  VS A HIS 48 CG  
+Distance: 7.910211 - Aromatic Stacking, 
+343 - A PHE 46 CE1  VS A HIS 48 ND1 
+Distance: 6.713170 - Aromatic Stacking, 
+344 - A PHE 46 CE1  VS A HIS 48 CE1 
+Distance: 6.085027 - Aromatic Stacking, 
+345 - A PHE 46 CE1  VS A HIS 48 NE2 
+Distance: 6.927161 - Aromatic Stacking, 
+346 - A PHE 46 CE2  VS A HIS 48 CE1 
+Distance: 7.895176 - Aromatic Stacking, 
+347 - A PHE 46 CZ   VS A HIS 48 ND1 
+Distance: 7.918978 - Aromatic Stacking, 
+348 - A PHE 46 CZ   VS A HIS 48 CE1 
+Distance: 7.381398 - Aromatic Stacking, 
+349 - A PHE 46 O    VS A LEU 49 N   
+Distance: 2.916231 - Hydrogen Bonds, 
+350 - A LYS 47 O    VS A LYS 50 NZ  
+Distance: 2.951930 - Hydrogen Bonds, 
+351 - A LYS 50 N    VS A GLU 54 OE1 
+Distance: 2.754635 - Hydrogen Bonds, 
+352 - A THR 51 O    VS A GLU 54 N   
+Distance: 3.158940 - Hydrogen Bonds, 
+353 - A THR 51 O    VS A MET 55 N   
+Distance: 3.006930 - Hydrogen Bonds, 
+354 - A GLU 52 O    VS A MET 55 N   
+Distance: 3.151849 - Hydrogen Bonds, 
+355 - A GLU 52 O    VS A LYS 56 N   
+Distance: 2.870811 - Hydrogen Bonds, 
+356 - A ALA 53 O    VS A ALA 57 N   
+Distance: 3.008848 - Hydrogen Bonds, 
+357 - A SER 58 O    VS A LYS 62 N   
+Distance: 3.152226 - Hydrogen Bonds, 
+358 - A GLU 59 O    VS A LYS 62 N   
+Distance: 3.169140 - Hydrogen Bonds, 
+359 - A GLU 59 OE1  VS A LYS 62 NZ  
+Distance: 4.712313 - Atractive, 
+360 - A GLU 59 OE2  VS A LYS 62 NZ  
+Distance: 5.006955 - Atractive, 
+361 - A GLU 59 O    VS A LYS 63 N   
+Distance: 2.888752 - Hydrogen Bonds, 
+362 - A ASP 60 O    VS A HIS 64 N   
+Distance: 2.986385 - Hydrogen Bonds, 
+363 - A LEU 61 O    VS A HIS 64 N   
+Distance: 3.181501 - Hydrogen Bonds, 
+364 - A LEU 61 O    VS A GLY 65 N   
+Distance: 2.890440 - Hydrogen Bonds, 
+365 - A LYS 62 O    VS A VAL 66 N   
+Distance: 3.137481 - Hydrogen Bonds, 
+366 - A LYS 63 O    VS A VAL 66 N   
+Distance: 3.175494 - Hydrogen Bonds, 
+367 - A LYS 63 O    VS A THR 67 N   
+Distance: 3.106279 - Hydrogen Bonds, 
+368 - A HIS 64 O    VS A THR 67 N   
+Distance: 3.014248 - Hydrogen Bonds, 
+369 - A HIS 64 O    VS A VAL 68 N   
+Distance: 2.912877 - Hydrogen Bonds, 
+370 - A GLY 65 O    VS A LEU 69 N   
+Distance: 2.993321 - Hydrogen Bonds, 
+371 - A VAL 66 O    VS A THR 70 N   
+Distance: 2.854770 - Hydrogen Bonds, 
+372 - A VAL 66 O    VS A THR 70 OG1 
+Distance: 2.708479 - Hydrogen Bonds, 
+373 - A THR 67 O    VS A ALA 71 N   
+Distance: 3.116573 - Hydrogen Bonds, 
+374 - A VAL 68 O    VS A LEU 72 N   
+Distance: 2.950801 - Hydrogen Bonds, 
+375 - A LEU 69 O    VS A GLY 73 N   
+Distance: 2.841418 - Hydrogen Bonds, 
+376 - A THR 70 O    VS A ALA 74 N   
+Distance: 3.107963 - Hydrogen Bonds, 
+377 - A ALA 71 O    VS A ILE 75 N   
+Distance: 3.116159 - Hydrogen Bonds, 
+378 - A LEU 72 O    VS A ILE 75 N   
+Distance: 3.150428 - Hydrogen Bonds, 
+379 - A LEU 72 O    VS A LEU 76 N   
+Distance: 2.863713 - Hydrogen Bonds, 
+380 - A LEU 72 CD2  VS A ILE 111 CD1 
+Distance: 3.690390 - Hydrophobic, 
+381 - A GLY 73 O    VS A LYS 77 N   
+Distance: 3.001970 - Hydrogen Bonds, 
+382 - A ILE 75 O    VS A LYS 78 N   
+Distance: 3.002020 - Hydrogen Bonds, 
+383 - A ILE 75 CD1  VS A LEU 86 CD2 
+Distance: 3.484552 - Hydrophobic, 
+384 - A LEU 76 O    VS A LYS 78 N   
+Distance: 3.187621 - Hydrogen Bonds, 
+385 - A LEU 76 O    VS A LYS 79 N   
+Distance: 2.963016 - Hydrogen Bonds, 
+386 - A LYS 78 O    VS A GLY 80 N   
+Distance: 3.165313 - Hydrogen Bonds, 
+387 - A LYS 78 O    VS A HIS 81 N   
+Distance: 2.934674 - Hydrogen Bonds, 
+388 - A LYS 78 NZ   VS A GLU 85 OE1 
+Distance: 4.114174 - Atractive, 
+389 - A LYS 78 NZ   VS A GLU 85 OE2 
+Distance: 3.197770 - Atractive, Hydrogen Bonds, 
+390 - A GLY 80 O    VS A HIS 82 N   
+Distance: 2.987622 - Hydrogen Bonds, 
+391 - A HIS 81 ND1  VS A GLU 83 OE1 
+Distance: 5.720376 - Atractive, 
+392 - A HIS 81 ND1  VS A GLU 83 OE2 
+Distance: 4.417967 - Atractive, 
+393 - A HIS 82 O    VS A GLU 85 N   
+Distance: 3.112896 - Hydrogen Bonds, 
+394 - A HIS 82 O    VS A LEU 86 N   
+Distance: 2.990014 - Hydrogen Bonds, 
+395 - A HIS 82 CD2  VS A LEU 86 CD1 
+Distance: 3.445074 - Hydrophobic, 
+396 - A HIS 82 ND1  VS A ASP 141 OD2 
+Distance: 4.785023 - Atractive, 
+397 - A HIS 82 NE2  VS A ASP 141 OD1 
+Distance: 4.844743 - Atractive, 
+398 - A HIS 82 NE2  VS A ASP 141 OD2 
+Distance: 2.688584 - Atractive, Hydrogen Bonds, 
+399 - A GLU 83 OE1  VS A GLU 85 OE1 
+Distance: 5.000044 - Repulsive, 
+400 - A LEU 86 O    VS A LEU 89 N   
+Distance: 3.198609 - Hydrogen Bonds, 
+401 - A LEU 86 O    VS A ALA 90 N   
+Distance: 2.757417 - Hydrogen Bonds, 
+402 - A LEU 86 CD1  VS A ASP 141 CB  
+Distance: 3.509597 - Hydrophobic, 
+403 - A LYS 87 O    VS A GLN 91 N   
+Distance: 3.015900 - Hydrogen Bonds, 
+404 - A PRO 88 O    VS A SER 92 N   
+Distance: 2.960675 - Hydrogen Bonds, 
+405 - A LEU 89 O    VS A HIS 93 N   
+Distance: 2.896170 - Hydrogen Bonds, 
+406 - A LEU 89 O    VS A HIS 93 ND1 
+Distance: 2.935561 - Hydrogen Bonds, 
+407 - A LEU 89 CD1  VS A HIS 93 CE1 
+Distance: 3.344817 - Hydrophobic, 
+408 - A ALA 90 O    VS A ALA 94 N   
+Distance: 2.848070 - Hydrogen Bonds, 
+409 - A ALA 90 CB   VS A LYS 145 CB  
+Distance: 3.687904 - Hydrophobic, 
+410 - A GLN 91 O    VS A THR 95 N   
+Distance: 2.952505 - Hydrogen Bonds, 
+411 - A GLN 91 O    VS A THR 95 OG1 
+Distance: 2.868138 - Hydrogen Bonds, 
+412 - A SER 92 O    VS A LYS 96 N   
+Distance: 2.944927 - Hydrogen Bonds, 
+413 - A SER 92 O    VS A HIS 97 N   
+Distance: 2.794430 - Hydrogen Bonds, 
+414 - A HIS 93 CG   VS A HIS 97 CG  
+Distance: 4.764744 - Aromatic Stacking, 
+415 - A HIS 93 CG   VS A HIS 97 ND1 
+Distance: 6.007293 - Aromatic Stacking, 
+416 - A HIS 93 CG   VS A HIS 97 CD2 
+Distance: 3.957241 - Aromatic Stacking, 
+417 - A HIS 93 CG   VS A HIS 97 CE1 
+Distance: 6.091580 - Aromatic Stacking, 
+418 - A HIS 93 CG   VS A HIS 97 NE2 
+Distance: 4.963035 - Aromatic Stacking, 
+419 - A HIS 93 ND1  VS A HIS 97 CG  
+Distance: 4.777205 - Aromatic Stacking, 
+420 - A HIS 93 ND1  VS A HIS 97 ND1 
+Distance: 5.836446 - Repulsive, Aromatic Stacking, 
+421 - A HIS 93 ND1  VS A HIS 97 CD2 
+Distance: 3.668247 - Aromatic Stacking, 
+422 - A HIS 93 ND1  VS A HIS 97 CE1 
+Distance: 5.627289 - Aromatic Stacking, 
+423 - A HIS 93 ND1  VS A HIS 97 NE2 
+Distance: 4.350443 - Repulsive, Aromatic Stacking, 
+424 - A HIS 93 CD2  VS A HIS 97 CG  
+Distance: 4.828848 - Aromatic Stacking, 
+425 - A HIS 93 CD2  VS A HIS 97 ND1 
+Distance: 6.053737 - Aromatic Stacking, 
+426 - A HIS 93 CD2  VS A HIS 97 CD2 
+Distance: 4.119813 - Aromatic Stacking, 
+427 - A HIS 93 CD2  VS A HIS 97 CE1 
+Distance: 6.190292 - Aromatic Stacking, 
+428 - A HIS 93 CD2  VS A HIS 97 NE2 
+Distance: 5.135812 - Aromatic Stacking, 
+429 - A HIS 93 CE1  VS A HIS 97 CG  
+Distance: 4.859435 - Aromatic Stacking, 
+430 - A HIS 93 CE1  VS A HIS 97 ND1 
+Distance: 5.800989 - Aromatic Stacking, 
+431 - A HIS 93 CE1  VS A HIS 97 CD2 
+Distance: 3.693565 - Hydrophobic, Aromatic Stacking, 
+432 - A HIS 93 CE1  VS A HIS 97 CE1 
+Distance: 5.478705 - Aromatic Stacking, 
+433 - A HIS 93 CE1  VS A HIS 97 NE2 
+Distance: 4.198516 - Aromatic Stacking, 
+434 - A HIS 93 NE2  VS A HIS 97 CG  
+Distance: 4.912969 - Aromatic Stacking, 
+435 - A HIS 93 NE2  VS A HIS 97 ND1 
+Distance: 5.945683 - Repulsive, Aromatic Stacking, 
+436 - A HIS 93 NE2  VS A HIS 97 CD2 
+Distance: 3.982126 - Aromatic Stacking, 
+437 - A HIS 93 NE2  VS A HIS 97 CE1 
+Distance: 5.831001 - Aromatic Stacking, 
+438 - A HIS 93 NE2  VS A HIS 97 NE2 
+Distance: 4.696372 - Repulsive, Aromatic Stacking, 
+439 - A HIS 93 O    VS A LYS 98 N   
+Distance: 2.951243 - Hydrogen Bonds, 
+440 - A HIS 93 O    VS A ILE 99 N   
+Distance: 2.806106 - Hydrogen Bonds, 
+441 - A THR 95 O    VS A LYS 98 NZ  
+Distance: 2.536644 - Hydrogen Bonds, 
+442 - A HIS 97 CB   VS A ILE 99 CG1 
+Distance: 3.719727 - Hydrophobic, 
+443 - A ILE 99 CG2  VS A TYR 103 CB  
+Distance: 3.770351 - Hydrophobic, 
+444 - A PRO 100 O    VS A LYS 102 N   
+Distance: 3.125339 - Hydrogen Bonds, 
+445 - A PRO 100 O    VS A TYR 103 N   
+Distance: 2.842951 - Hydrogen Bonds, 
+446 - A PRO 100 CD   VS A TYR 103 CD2 
+Distance: 3.742031 - Hydrophobic, 
+447 - A ILE 101 O    VS A TYR 103 N   
+Distance: 3.151942 - Hydrogen Bonds, 
+448 - A ILE 101 O    VS A LEU 104 N   
+Distance: 2.858480 - Hydrogen Bonds, 
+449 - A ILE 101 O    VS A GLU 105 N   
+Distance: 3.052289 - Hydrogen Bonds, 
+450 - A LYS 102 O    VS A GLU 105 N   
+Distance: 3.025561 - Hydrogen Bonds, 
+451 - A LYS 102 NZ   VS A GLU 105 OE1 
+Distance: 2.766834 - Atractive, Hydrogen Bonds, 
+452 - A LYS 102 NZ   VS A GLU 105 OE2 
+Distance: 3.862928 - Atractive, 
+453 - A LYS 102 O    VS A PHE 106 N   
+Distance: 2.978188 - Hydrogen Bonds, 
+454 - A LYS 102 CG   VS A PHE 106 CZ  
+Distance: 3.563826 - Hydrophobic, 
+455 - A TYR 103 CG   VS A PHE 106 CG  
+Distance: 5.454138 - Aromatic Stacking, 
+456 - A TYR 103 CG   VS A PHE 106 CD1 
+Distance: 6.476948 - Aromatic Stacking, 
+457 - A TYR 103 CG   VS A PHE 106 CD2 
+Distance: 4.393505 - Aromatic Stacking, 
+458 - A TYR 103 CG   VS A PHE 106 CE1 
+Distance: 6.608326 - Aromatic Stacking, 
+459 - A TYR 103 CG   VS A PHE 106 CE2 
+Distance: 4.599507 - Aromatic Stacking, 
+460 - A TYR 103 CG   VS A PHE 106 CZ  
+Distance: 5.775803 - Aromatic Stacking, 
+461 - A TYR 103 CD1  VS A PHE 106 CG  
+Distance: 5.285765 - Aromatic Stacking, 
+462 - A TYR 103 CD1  VS A PHE 106 CD1 
+Distance: 6.095288 - Aromatic Stacking, 
+463 - A TYR 103 CD1  VS A PHE 106 CD2 
+Distance: 4.114704 - Aromatic Stacking, 
+464 - A TYR 103 CD1  VS A PHE 106 CE1 
+Distance: 5.943712 - Aromatic Stacking, 
+465 - A TYR 103 CD1  VS A PHE 106 CE2 
+Distance: 3.911417 - Aromatic Stacking, 
+466 - A TYR 103 CD1  VS A PHE 106 CZ  
+Distance: 4.954970 - Aromatic Stacking, 
+467 - A TYR 103 CD2  VS A PHE 106 CG  
+Distance: 6.478319 - Aromatic Stacking, 
+468 - A TYR 103 CD2  VS A PHE 106 CD1 
+Distance: 7.581793 - Aromatic Stacking, 
+469 - A TYR 103 CD2  VS A PHE 106 CD2 
+Distance: 5.344722 - Aromatic Stacking, 
+470 - A TYR 103 CD2  VS A PHE 106 CE1 
+Distance: 7.717797 - Aromatic Stacking, 
+471 - A TYR 103 CD2  VS A PHE 106 CE2 
+Distance: 5.541485 - Aromatic Stacking, 
+472 - A TYR 103 CD2  VS A PHE 106 CZ  
+Distance: 6.802616 - Aromatic Stacking, 
+473 - A TYR 103 CE1  VS A PHE 106 CG  
+Distance: 6.131726 - Aromatic Stacking, 
+474 - A TYR 103 CE1  VS A PHE 106 CD1 
+Distance: 6.864545 - Aromatic Stacking, 
+475 - A TYR 103 CE1  VS A PHE 106 CD2 
+Distance: 4.827769 - Aromatic Stacking, 
+476 - A TYR 103 CE1  VS A PHE 106 CE1 
+Distance: 6.507275 - Aromatic Stacking, 
+477 - A TYR 103 CE1  VS A PHE 106 CE2 
+Distance: 4.324852 - Aromatic Stacking, 
+478 - A TYR 103 CE1  VS A PHE 106 CZ  
+Distance: 5.324755 - Aromatic Stacking, 
+479 - A TYR 103 CE2  VS A PHE 106 CG  
+Distance: 7.199198 - Aromatic Stacking, 
+480 - A TYR 103 CE2  VS A PHE 106 CD2 
+Distance: 5.930611 - Aromatic Stacking, 
+481 - A TYR 103 CE2  VS A PHE 106 CE2 
+Distance: 5.877051 - Aromatic Stacking, 
+482 - A TYR 103 CE2  VS A PHE 106 CZ  
+Distance: 7.118648 - Aromatic Stacking, 
+483 - A TYR 103 CZ   VS A PHE 106 CG  
+Distance: 7.013106 - Aromatic Stacking, 
+484 - A TYR 103 CZ   VS A PHE 106 CD1 
+Distance: 7.881611 - Aromatic Stacking, 
+485 - A TYR 103 CZ   VS A PHE 106 CD2 
+Distance: 5.672307 - Aromatic Stacking, 
+486 - A TYR 103 CZ   VS A PHE 106 CE1 
+Distance: 7.618681 - Aromatic Stacking, 
+487 - A TYR 103 CZ   VS A PHE 106 CE2 
+Distance: 5.310057 - Aromatic Stacking, 
+488 - A TYR 103 CZ   VS A PHE 106 CZ  
+Distance: 6.426735 - Aromatic Stacking, 
+489 - A TYR 103 O    VS A ILE 107 N   
+Distance: 2.995833 - Hydrogen Bonds, 
+490 - A LEU 104 O    VS A SER 108 N   
+Distance: 3.008839 - Hydrogen Bonds, 
+491 - A LEU 104 O    VS A SER 108 OG  
+Distance: 2.851929 - Hydrogen Bonds, 
+492 - A GLU 105 O    VS A SER 108 N   
+Distance: 3.182078 - Hydrogen Bonds, 
+493 - A GLU 105 O    VS A GLU 109 N   
+Distance: 2.974620 - Hydrogen Bonds, 
+494 - A GLU 105 OE1  VS A ARG 139 NH2 
+Distance: 5.400679 - Atractive, 
+495 - A GLU 105 OE2  VS A ARG 139 NH2 
+Distance: 4.921845 - Atractive, 
+496 - A PHE 106 O    VS A GLU 109 N   
+Distance: 3.199393 - Hydrogen Bonds, 
+497 - A PHE 106 O    VS A ALA 110 N   
+Distance: 3.072007 - Hydrogen Bonds, 
+498 - A ILE 107 O    VS A ALA 110 N   
+Distance: 3.159936 - Hydrogen Bonds, 
+499 - A ILE 107 O    VS A ILE 111 N   
+Distance: 2.855456 - Hydrogen Bonds, 
+500 - A SER 108 O    VS A ILE 112 N   
+Distance: 3.011690 - Hydrogen Bonds, 
+501 - A GLU 109 O    VS A HIS 113 N   
+Distance: 2.940927 - Hydrogen Bonds, 
+502 - A ALA 110 O    VS A VAL 114 N   
+Distance: 2.986493 - Hydrogen Bonds, 
+503 - A ILE 111 O    VS A LEU 115 N   
+Distance: 2.915586 - Hydrogen Bonds, 
+504 - A ILE 112 O    VS A HIS 116 N   
+Distance: 3.008678 - Hydrogen Bonds, 
+505 - A HIS 113 O    VS A SER 117 N   
+Distance: 3.032437 - Hydrogen Bonds, 
+506 - A VAL 114 O    VS A SER 117 N   
+Distance: 3.196690 - Hydrogen Bonds, 
+507 - A VAL 114 O    VS A ARG 118 N   
+Distance: 2.900211 - Hydrogen Bonds, 
+508 - A LEU 115 O    VS A HIS 119 N   
+Distance: 2.853878 - Hydrogen Bonds, 
+509 - A HIS 119 O    VS A GLY 121 N   
+Distance: 3.146339 - Hydrogen Bonds, 
+510 - A HIS 119 O    VS A ASP 122 N   
+Distance: 2.991412 - Hydrogen Bonds, 
+511 - A HIS 119 ND1  VS A ASP 122 OD2 
+Distance: 5.974337 - Atractive, 
+512 - A HIS 119 O    VS A PHE 123 N   
+Distance: 3.037695 - Hydrogen Bonds, 
+513 - A HIS 119 CG   VS A PHE 123 CG  
+Distance: 6.474219 - Aromatic Stacking, 
+514 - A HIS 119 CG   VS A PHE 123 CD1 
+Distance: 6.781014 - Aromatic Stacking, 
+515 - A HIS 119 CG   VS A PHE 123 CD2 
+Distance: 7.151952 - Aromatic Stacking, 
+516 - A HIS 119 CG   VS A PHE 123 CE1 
+Distance: 7.646118 - Aromatic Stacking, 
+517 - A HIS 119 CG   VS A PHE 123 CE2 
+Distance: 7.960769 - Aromatic Stacking, 
+518 - A HIS 119 ND1  VS A PHE 123 CG  
+Distance: 7.794762 - Aromatic Stacking, 
+519 - A HIS 119 CD2  VS A PHE 123 CG  
+Distance: 6.545779 - Aromatic Stacking, 
+520 - A HIS 119 CD2  VS A PHE 123 CD1 
+Distance: 6.739713 - Aromatic Stacking, 
+521 - A HIS 119 CD2  VS A PHE 123 CD2 
+Distance: 7.082833 - Aromatic Stacking, 
+522 - A HIS 119 CD2  VS A PHE 123 CE1 
+Distance: 7.388246 - Aromatic Stacking, 
+523 - A HIS 119 CD2  VS A PHE 123 CE2 
+Distance: 7.686416 - Aromatic Stacking, 
+524 - A HIS 119 CD2  VS A PHE 123 CZ  
+Distance: 7.832783 - Aromatic Stacking, 
+525 - A HIS 119 NE2  VS A PHE 123 CG  
+Distance: 7.876644 - Aromatic Stacking, 
+526 - A PRO 120 O    VS A ASP 122 N   
+Distance: 3.193520 - Hydrogen Bonds, 
+527 - A PRO 120 O    VS A PHE 123 N   
+Distance: 3.100524 - Hydrogen Bonds, 
+528 - A PHE 123 CE1  VS A MET 131 CB  
+Distance: 3.750305 - Hydrophobic, 
+529 - A GLY 124 O    VS A ASP 126 N   
+Distance: 3.198118 - Hydrogen Bonds, 
+530 - A GLY 124 O    VS A ALA 127 N   
+Distance: 3.084869 - Hydrogen Bonds, 
+531 - A GLY 124 O    VS A GLN 128 N   
+Distance: 2.821018 - Hydrogen Bonds, 
+532 - A ALA 125 O    VS A GLY 129 N   
+Distance: 2.867329 - Hydrogen Bonds, 
+533 - A ASP 126 O    VS A ALA 130 N   
+Distance: 3.004041 - Hydrogen Bonds, 
+534 - A ALA 127 O    VS A MET 131 N   
+Distance: 2.871550 - Hydrogen Bonds, 
+535 - A GLN 128 O    VS A ASN 132 N   
+Distance: 2.898497 - Hydrogen Bonds, 
+536 - A GLY 129 O    VS A LYS 133 N   
+Distance: 2.970521 - Hydrogen Bonds, 
+537 - A ALA 130 O    VS A LYS 133 N   
+Distance: 3.155554 - Hydrogen Bonds, 
+538 - A ALA 130 O    VS A ALA 134 N   
+Distance: 2.930397 - Hydrogen Bonds, 
+539 - A MET 131 O    VS A ALA 134 N   
+Distance: 3.152932 - Hydrogen Bonds, 
+540 - A MET 131 O    VS A LEU 135 N   
+Distance: 2.908200 - Hydrogen Bonds, 
+541 - A ASN 132 O    VS A GLU 136 N   
+Distance: 2.829067 - Hydrogen Bonds, 
+542 - A LYS 133 O    VS A LEU 137 N   
+Distance: 2.921272 - Hydrogen Bonds, 
+543 - A ALA 134 O    VS A PHE 138 N   
+Distance: 3.056728 - Hydrogen Bonds, 
+544 - A LEU 135 O    VS A ARG 139 N   
+Distance: 2.985393 - Hydrogen Bonds, 
+545 - A GLU 136 O    VS A LYS 140 N   
+Distance: 2.787179 - Hydrogen Bonds, 
+546 - A LEU 137 O    VS A ASP 141 N   
+Distance: 2.962915 - Hydrogen Bonds, 
+547 - A PHE 138 O    VS A ILE 142 N   
+Distance: 2.935588 - Hydrogen Bonds, 
+548 - A ARG 139 O    VS A ALA 143 N   
+Distance: 2.789171 - Hydrogen Bonds, 
+549 - A LYS 140 O    VS A ALA 144 N   
+Distance: 3.061127 - Hydrogen Bonds, 
+550 - A ILE 142 O    VS A LYS 145 N   
+Distance: 3.029183 - Hydrogen Bonds, 
+551 - A ILE 142 O    VS A TYR 146 N   
+Distance: 2.866586 - Hydrogen Bonds, 
+552 - A ALA 143 O    VS A LYS 147 N   
+Distance: 2.903874 - Hydrogen Bonds, 
+553 - A ALA 144 O    VS A GLU 148 N   
+Distance: 3.104752 - Hydrogen Bonds, 
+554 - A LYS 145 NZ   VS A GLU 148 OE1 
+Distance: 4.255540 - Atractive, 
+555 - A LYS 145 O    VS A LEU 149 N   
+Distance: 3.111205 - Hydrogen Bonds, 
+556 - A TYR 146 O    VS A LEU 149 N   
+Distance: 3.101366 - Hydrogen Bonds, 
+557 - A TYR 146 O    VS A GLY 150 N   
+Distance: 2.935220 - Hydrogen Bonds, 
+558 - A TYR 146 O    VS A TYR 151 N   
+Distance: 2.941509 - Hydrogen Bonds, 
+559 - A LYS 147 O    VS A LEU 149 N   
+Distance: 3.195261 - Hydrogen Bonds, 
+560 - A LYS 147 O    VS A GLY 150 N   
+Distance: 3.024453 - Hydrogen Bonds, 
