@@ -6,7 +6,7 @@ def TMAlign(protein1,protein2):
         print("TMAlign compilado!"))
     path = protein1[-8:-4] + "x" + protein2[-8:-4] + "_align"
     os.system("mkdir ../Data/" + path)
-    callalign = "./tmalign.exe " + protein1 + " " + protein2 + " -o " + "../Data/" + path + "/" + protein1[-8:-4]
+    callalign = "./tmalign " + protein1 + " " + protein2 + " -o " + "../Data/" + path + "/" + protein1[-8:-4]
     os.system(callalign)
     return(path)
 
