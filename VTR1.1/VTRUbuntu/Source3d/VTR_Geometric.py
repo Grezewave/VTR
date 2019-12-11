@@ -84,7 +84,7 @@ def freq_VMD(matches,cutoff):
     plt.xlabel('VMD')
     #plt.show()
 
-   '''residues = ["VAL","LEU","TRP","PRO","ILE","MET","FEN","ALA","TRE","GLI","ASN","GLN","CIS","SER","TIR","ARG","HIS","LIS","GLU","ASP"]
+    '''residues = ["VAL","LEU","TRP","PRO","ILE","MET","FEN","ALA","TRE","GLI","ASN","GLN","CIS","SER","TIR","ARG","HIS","LIS","GLU","ASP"]
     freq = [0 for i in range(0,20)]
     for i in range(0,len(residues)):
         for match in matches:
