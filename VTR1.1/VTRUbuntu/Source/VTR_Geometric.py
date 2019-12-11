@@ -67,7 +67,7 @@ def freq_VMD(matches,cutoff):
     vmd = []
     for match in matches:
         y.append(match.VMD())
-    plt.subplot(131)
+    plt.subplot(121)
     frequency, _vmd, thrash = plt.hist(y,bins = x)
     for i in range(1,len(_vmd)):
         vmd.append((_vmd[i-1] + _vmd[i])/2)
@@ -77,14 +77,14 @@ def freq_VMD(matches,cutoff):
     plt.xlabel('VMD')
     #plt.show()
     
-    plt.subplot(132)
+    plt.subplot(122)
     plt.plot(vmd,frequency,'r')
     plt.title('Frequency distribuition')
     plt.ylabel('Frequency')
     plt.xlabel('VMD')
     #plt.show()
 
-    residues = ["VAL","LEU","TRP","PRO","ILE","MET","FEN","ALA","TRE","GLI","ASN","GLN","CIS","SER","TIR","ARG","HIS","LIS","GLU","ASP"]
+    '''residues = ["VAL","LEU","TRP","PRO","ILE","MET","FEN","ALA","TRE","GLI","ASN","GLN","CIS","SER","TIR","ARG","HIS","LIS","GLU","ASP"]
     freq = [0 for i in range(0,20)]
     for i in range(0,len(residues)):
         for match in matches:
@@ -102,7 +102,7 @@ def freq_VMD(matches,cutoff):
         plt.bar(residues[i], freq[i], color = colorscale(freq[i],max(freq), 't'), width = 0.7)
     plt.title('Frequency distribuition')
     plt.ylabel('Frequency')
-    plt.xlabel('Residue')
+    plt.xlabel('Residue')'''
     plt.show()   
 
 def writer(protein1,protein2,rtt_protein,stc_protein,rtt_contacts,stc_contacts,matches):
