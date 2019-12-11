@@ -6,13 +6,13 @@ def TMAlign(protein1,protein2):
         print("TMAlign compilado!")
     path = protein1[-8:-4] + "x" + protein2[-8:-4] + "_align"
     os.system("mkdir ../Data/" + path)
-    callalign = "./tmalign.exe " + protein1 + " " + protein2 + " -o " + "../Data/" + path + "/" + protein1[-8:-4]
+    callalign = "./tmalign " + protein1 + " " + protein2 + " -o " + "../Data/" + path + "/" + protein1[-8:-4]
     os.system(callalign)
     return(path)
 
 def create_dir(rtt_path,stc_path):
     folder = rtt_path[-15:-11] + "_x_" + stc_path[-8:-4]
-    pmlname = "rm -r ../Plots3d/" + folder + " /s /q"
+    pmlname = "rm -r ../Plots3d/" + folder
     os.system(pmlname)
     pmlname = "mkdir ../Plots3d/" + folder
     os.system(pmlname)
