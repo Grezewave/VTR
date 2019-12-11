@@ -3,7 +3,7 @@ import os
 def TMAlign(protein1,protein2):
     if (not(os.path.exists("tmalign.exe"))):
         os.system("g++ TMAlign.cpp -o tmalign")
-        print("TMAlign compilado!"))
+        print("TMAlign compilado!")
     path = protein1[-8:-4] + "x" + protein2[-8:-4] + "_align"
     os.system("mkdir ../Data/" + path)
     callalign = "./tmalign.exe " + protein1 + " " + protein2 + " -o " + "../Data/" + path + "/" + protein1[-8:-4]
@@ -12,8 +12,8 @@ def TMAlign(protein1,protein2):
 
 def create_dir(rtt_path,stc_path):
     folder = rtt_path[-15:-11] + "_x_" + stc_path[-8:-4]
-    pmlname = "rm -r ../Plots/" + folder + " /s /q"
+    pmlname = "rm -r ../Plots3d/" + folder + " /s /q"
     os.system(pmlname)
-    pmlname = "mkdir ../Plots/" + folder
+    pmlname = "mkdir ../Plots3d/" + folder
     os.system(pmlname)
     return(folder)

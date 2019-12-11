@@ -4,6 +4,7 @@ while (1):
      os.system("mkdir ../Results/Contacts")
      os.system("mkdir ../Results/Matches")
      os.system("mkdir ../Plots")
+     os.system("mkdir ../Plots3d")
      os.system("mkdir ../Results/Outs")
      os.system("clear")
      os.system("echo ____________________________________________________________\n")

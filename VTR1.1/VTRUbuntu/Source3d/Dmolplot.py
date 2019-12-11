@@ -1,7 +1,19 @@
-import Winfunct
+import Ufunct
 import os
 
-def multi_ploter(rtt_path, stc_path, matches, cutoff):
+def colorscale(VMD, cutoff, out):
+    Redest = [255,0,0]
+    Bluest = [0,0,255]
+    R = (((-255)/cutoff)*VMD)+255
+    G = 0
+    B = (((255)/cutoff)*VMD)
+    if out == 'l':
+        color = [int(R),int(G),int(B)]
+    elif out == 't':
+        color = (float(B)/255,float(G),float(R)/255)
+    return(color)
+
+def multi_ploter(rtt_path, stc_path, matches):
     folder = Ufunct.create_dir(rtt_path,stc_path)
     for i in matches:
         pmlname = "../Plots3d/" + folder + "/" + i.rtt_contact.residue1.id + str(i.rtt_contact.residue1.parameter) + "-" + str(i.rtt_contact.atom1.id) + "--" + i.rtt_contact.residue2.id + str(i.rtt_contact.residue2.parameter) + "-" + str(i.rtt_contact.atom2.id) + "_x_" + i.stc_contact.residue1.id + str(i.stc_contact.residue1.parameter) + "-" + str(i.stc_contact.atom1.id) + "--" + i.stc_contact.residue2.id + str(i.stc_contact.residue2.parameter) + "-" + str(i.stc_contact.atom2.id) + ".php"

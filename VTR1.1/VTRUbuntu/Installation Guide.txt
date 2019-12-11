@@ -14,9 +14,9 @@ for tests, you can add more proteins in the folder by copy .pdb files to the fol
 For VTR first run, just go to the folder "Source" by terminal and tip "python3 VTR.py",
 Or run the module VTR_Geometric directly, going to the Source folder,and writing the following structure:
 
->> python VTR_Geometric.py <structure1 path> <structure2 path> <cutoff(float or int value)>
+>> python3 VTR_Geometric.py <structure1 path> <structure2 path> <cutoff(float or int value)>
 or 
->> python VTR_Geometric.py <structure1 path> <structure2 path> <cutoff(float or int value) d>
+>> python3 VTR_Geometric.py <structure1 path> <structure2 path> <cutoff(float or int value) d>
 for detailed informations
 
 Maybe, at end of execution, the Pymol plot doesn't open, its a bug
@@ -26,6 +26,6 @@ New Version Log(10/12/2019):
 Now VTR generates a simple php script for plot the matches in 3Dmol
 The folder Source3d contains the VTR file that generate the scripts in the Plot3d folder
 
->> python VTR_Geometric.py <structure1 path> <structure2 path> <cutoff(float or int value)>
+>> python3 VTR_Geometric.py <structure1 path> <structure2 path> <cutoff(float or int value)>
 or
 >> python3 VTR.py

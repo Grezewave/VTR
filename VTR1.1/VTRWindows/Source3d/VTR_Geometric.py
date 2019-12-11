@@ -193,7 +193,7 @@ def main():
     print(RMSD(matches, rtt_protein, stc_protein))
     writer(protein1,protein2,rtt_protein,stc_protein,rtt_contacts,stc_contacts,matches)
     
-    Dmolplot.multi_ploter(rtt_name, protein2, matches, int(sys.argv[3]))
+    Dmolplot.multi_ploter(rtt_name, protein2, matches)
     freq_VMD(matches,int(sys.argv[3]))
     
 main()
