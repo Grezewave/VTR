@@ -10,7 +10,7 @@ import Classify
 import Contacts
 import matplotlib.pyplot as plt
 import numpy
-import Ufunct
+import OSfunct
 import Pymolplot
 
 class match:
@@ -172,7 +172,7 @@ def main():
     protein1 = sys.argv[1]
     protein2 = sys.argv[2]
     
-    path = Ufunct.TMAlign(protein1,protein2)
+    path = OSfunct.TMAlign(protein1,protein2)
     rtt_name = "../Data/" + path + protein1[protein1.rfind("/"):-4] + "_rotate.pdb"
     rtt_protein = Classify.classify(rtt_name)
     stc_protein = Classify.classify(protein2)

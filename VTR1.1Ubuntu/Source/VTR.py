@@ -30,8 +30,4 @@ while (1):
      else:
           execute = "python3 VTR_Geometric.py ../Data/" + rtt_protein + ".pdb ../Data/" + stc_protein + ".pdb " + cutoff 
      os.system(execute)
-     if (question == "y" or question == "Y"):
-          plot = "pymol -Q ../Plots/c_scale" + rtt_protein + "_x_" + stc_protein + ".pml"
-     else:
-          plot = "pymol -Q ../Plots/default" + rtt_protein + "_x_" + stc_protein + ".pml"
-     os.system(plot)
+

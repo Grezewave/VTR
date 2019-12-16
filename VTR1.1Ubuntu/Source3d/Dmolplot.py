@@ -1,4 +1,4 @@
-import Ufunct
+import OSfunct
 import os
 
 def colorscale(VMD, cutoff, out):
@@ -14,7 +14,7 @@ def colorscale(VMD, cutoff, out):
     return(color)
 
 def multi_ploter(rtt_path, stc_path, matches):
-    folder = Ufunct.create_dir(rtt_path,stc_path)
+    folder = OSfunct.create_dir(rtt_path,stc_path)
     for i in matches:
         pmlname = "../Plots3d/" + folder + "/" + i.rtt_contact.residue1.id + str(i.rtt_contact.residue1.parameter) + "-" + str(i.rtt_contact.atom1.id) + "--" + i.rtt_contact.residue2.id + str(i.rtt_contact.residue2.parameter) + "-" + str(i.rtt_contact.atom2.id) + "_x_" + i.stc_contact.residue1.id + str(i.stc_contact.residue1.parameter) + "-" + str(i.stc_contact.atom1.id) + "--" + i.stc_contact.residue2.id + str(i.stc_contact.residue2.parameter) + "-" + str(i.stc_contact.atom2.id) + ".php"
         pml = open(pmlname,'w')
