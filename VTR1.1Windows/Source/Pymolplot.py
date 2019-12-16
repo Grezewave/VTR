@@ -1,4 +1,4 @@
-import Winfunct
+import OSfunct
 import os
 
 def colorchange(index):
@@ -85,7 +85,7 @@ def detailed_ploter(rtt_path, stc_path, matches, cutoff):
     pml.close()
 
 def multi_ploter(rtt_path, stc_path, matches, cutoff):
-    folder = Winfunct.create_dir(rtt_path,stc_path)
+    folder = OSfunct.create_dir(rtt_path,stc_path)
     for i in matches:
         pmlname = "../Plots/" + folder + "/" + i.rtt_contact.residue1.id + str(i.rtt_contact.residue1.parameter) + "--" + i.rtt_contact.residue2.id + str(i.rtt_contact.residue2.parameter) + "_x_" + i.stc_contact.residue1.id + str(i.stc_contact.residue1.parameter) + "--" + i.stc_contact.residue2.id + str(i.stc_contact.residue2.parameter) + ".pml"
         pml = open(pmlname,'a')
