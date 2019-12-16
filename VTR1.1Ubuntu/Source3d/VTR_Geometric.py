@@ -10,7 +10,7 @@ import Classify
 import Contacts
 import matplotlib.pyplot as plt
 import numpy
-import Ufunct
+import OSfunct
 import Dmolplot
 
 class match:

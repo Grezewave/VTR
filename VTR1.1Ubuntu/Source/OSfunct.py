@@ -4,7 +4,7 @@ import os
 def TMAlign(protein1,protein2):
     if (not(os.path.exists("tmalign.exe"))):
         os.system("g++ TMAlign.cpp -o tmalign")
-        print("TMAlign compilado!"))
+        print("TMAlign compilado!")
     path = protein1[-8:-4] + "x" + protein2[-8:-4] + "_align"
     os.system("mkdir ../Data/" + path)
     callalign = "./tmalign " + protein1 + " " + protein2 + " -o " + "../Data/" + path + "/" + protein1[-8:-4]
