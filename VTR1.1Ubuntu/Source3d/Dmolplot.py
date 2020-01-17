@@ -26,7 +26,7 @@ def multi_ploter(rtt_path, stc_path, matches):
         pml.write("                class='viewer_3Dmoljs'\n")
         pml.write("                data-backgroundcolor='0x000000'\n")
         
-        pml.write("                data-href =  '../Data/" + rtt_path[rtt_path.rfind("/")+1:-11] + "x" + stc_path[stc_path.rfind("/")+1:-4] + "_align/" + rtt_path[rtt_path.rfind("/")+1:] + "'\n")
+        pml.write("                data-href =  '../../Data/" + rtt_path[rtt_path.rfind("/")+1:-11] + "x" + stc_path[stc_path.rfind("/")+1:-4] + "_align/" + rtt_path[rtt_path.rfind("/")+1:] + "'\n")
         pml.write("                data-select='model:0'\n")
         pml.write("                data-style ='cross:hidden=true'\n")
         
@@ -40,7 +40,7 @@ def multi_ploter(rtt_path, stc_path, matches):
         pml.write("                data-select4='model:0;serial:"+str(i.rtt_contact.atom2.id)+"'\n")
         pml.write("                data-style4 ='stick:color=red'\n")
         
-        pml.write("                data-href1 =  '../Data/"+stc_path[stc_path.rfind("/")+1:] + "'\n")
+        pml.write("                data-href1 =  '../../Data/"+stc_path[stc_path.rfind("/")+1:] + "'\n")
         pml.write("                data-select5='model:1'\n")
         pml.write("                data-style5 ='cross:hidden=true'\n")
         

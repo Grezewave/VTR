@@ -2,7 +2,7 @@ For use VTR, you need do some external settings in your machine.
 
 Download python3 and install matplotlib:
 
-Download Pymol last version from:
+Download Pymol .tar.gz last version from:
 https://pymol.org/
 
 Download g++:
