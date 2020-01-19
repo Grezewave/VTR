@@ -237,7 +237,7 @@ def writer(protein1,protein2,rtt_protein,stc_protein,rtt_contacts,stc_contacts,m
     out.close()
     
 def main():
-     start = time.time()
+    start = time.time()
     if (len(sys.argv)) != 9 and (len(sys.argv)) != 8 :
         print("Insufficient paramenters(min: 3, Protein 1, Protein 2, VMD )")
         sys.exit()
