@@ -1,0 +1,27 @@
+v1.2, 01/19/2020
+For use VTR, you need do some external settings in your machine.
+
+Download python3 and install matplotlib:
+
+Download Pymol .tar.gz last version from:
+https://pymol.org/
+
+Download g++:
+
+Installation complete, now, you need put the target proteins in the folder Data,
+that is in VTR extraction folder, in this folder, there's 4 proteins of globin type
+for tests, you can add more proteins in the folder by copy .pdb files to the folder.
+
+For VTR first run, just go to the folder "Source" by terminal and tip "python3 VTR.py",
+Or run the source code VTR_Geometric directly, going to the Source folder,and writing the following structure:
+
+>> python3 VTR_Geometric.py <structure1 path> <structure2 path> <cutoff(float or int value) <structure1's chain1> <structure1's chain2> <structure2's chain1> <structure2's chain2>>
+or 
+>> python3 VTR_Geometric.py <structure1 path> <structure2 path> <cutoff(float or int value) <structure1's chain1> <structure1's chain2> <structure2's chain1> <structure2's chain2> d>
+for detailed informations
+
+You can see the plot running the files in folder "Plots" on Pymol last version
+
+
+Now VTR generates a simple html script for plot the matches in 3Dmol
+The folder Source3d contains the VTR file that generate the scripts in the Plot3d folder
