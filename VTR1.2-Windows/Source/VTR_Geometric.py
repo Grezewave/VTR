@@ -27,6 +27,14 @@ class match:
     def VMD(self):
         return ((self.Vector1() + self.Vector2())/2)
 
+def TMAlign(protein1,protein2):
+    os.system("g++ TMAlign.cpp -o tmalign")
+    path = protein1[-8:-4] + "x" + protein2[-8:-4] + "_align"
+    os.system("md ..\\Data\\" + path)
+    callalign = "tmalign " + protein1 + " " + protein2 + " -o " + "../Data/" + path + "/" + protein1[-8:-4]
+    os.system(callalign)
+    return(path)
+
 def minVMD(matches,blacklist,cutoff):
     minVMD = cutoff
     match = 0
@@ -108,7 +116,6 @@ def match_contacts(rtt_contacts,stc_contacts,cutoff,chain11,chain12,chain21,chai
             control = False
     return matches
 
-
 def freq_VMD(matches,cutoff,detail):
     x = [i for i in numpy.arange(0,float(cutoff),cutoff/20)]
     y = []
@@ -176,7 +183,7 @@ def freq_VMD(matches,cutoff,detail):
                 plt.subplots_adjust(left=0.04, bottom=0.05, right=0.99, top=0.97, wspace=0.09, hspace=0.41)
                 plt.show()
                 x = 1       
-
+    
 def writer(protein1,protein2,rtt_protein,stc_protein,rtt_contacts,stc_contacts,matches):
     outfile = "../Results/Matches/" + protein1[-8:-4] + "_x_" + protein2[-8:-4] + ".txt"
     out = open(outfile,'w')

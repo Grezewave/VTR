@@ -5,7 +5,7 @@
 #Match skill improved and refined
 #Most detailed analisys avaiable(by residue and color scale)
 #Most Graphic detail and execution stats
-#More Run options(Chain filter)
+#More run options(Chain filter)
 
 import sys
 import Classify
@@ -26,6 +26,14 @@ class match:
         return (Contacts.adistance(self.rtt_contact.atom2,self.stc_contact.atom2))
     def VMD(self):
         return ((self.Vector1() + self.Vector2())/2)
+
+def TMAlign(protein1,protein2):
+    os.system("g++ TMAlign.cpp -o tmalign")
+    path = protein1[-8:-4] + "x" + protein2[-8:-4] + "_align"
+    os.system("md ..\\Data\\" + path)
+    callalign = "tmalign " + protein1 + " " + protein2 + " -o " + "../Data/" + path + "/" + protein1[-8:-4]
+    os.system(callalign)
+    return(path)
 
 def minVMD(matches,blacklist,cutoff):
     minVMD = cutoff
@@ -175,6 +183,7 @@ def freq_VMD(matches,cutoff,detail):
                 plt.subplots_adjust(left=0.04, bottom=0.05, right=0.99, top=0.97, wspace=0.09, hspace=0.41)
                 plt.show()
                 x = 1       
+    
 
 def writer(protein1,protein2,rtt_protein,stc_protein,rtt_contacts,stc_contacts,matches):
     outfile = "../Results/Matches/" + protein1[-8:-4] + "_x_" + protein2[-8:-4] + ".txt"
@@ -237,7 +246,7 @@ def writer(protein1,protein2,rtt_protein,stc_protein,rtt_contacts,stc_contacts,m
     out.close()
     
 def main():
-     start = time.time()
+    start = time.time()
     if (len(sys.argv)) != 9 and (len(sys.argv)) != 8 :
         print("Insufficient paramenters(min: 3, Protein 1, Protein 2, VMD )")
         sys.exit()
@@ -258,8 +267,8 @@ def main():
     print(result)
     print("RMSD = "+str(RMSD(matches, rtt_protein, stc_protein)))
     writer(protein1,protein2,rtt_protein,stc_protein,rtt_contacts,stc_contacts,matches)
-    
-    Plot.default_ploter(rtt_name, protein2, matches)
+
+    Plot.multi_ploter(rtt_name, protein2, matches)
     if (len(sys.argv) == 9):
         freq_VMD(matches,int(sys.argv[3]),sys.argv[8])
     else:

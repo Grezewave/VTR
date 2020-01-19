@@ -1,0 +1,85 @@
+load inline
+select *A
+wireframe .45
+select *B
+wireframe .20
+select all
+color white
+select    1:A,  10:B
+color red
+select    2:A,  11:B
+color red
+select    3:A,  12:B
+color red
+select    4:A,  13:B
+color red
+select    5:A,  14:B
+color red
+select    6:A,  15:B
+color red
+select    7:A,  16:B
+color red
+select    8:A,  17:B
+color red
+select    9:A,  18:B
+color red
+select   11:A,  19:B
+color red
+select   12:A,  20:B
+color red
+select   15:A,  21:B
+color red
+select all
+exit
+REMARK TM-align
+REMARK Chain 1:../Data/1a6m.pdb Size= 151
+REMARK Chain 2:../Data/1zni.pdb Size= 21 (TM-score is normalized by   21, d0=  0.50)
+REMARK Aligned length=  12, RMSD=  1.23, TM-score=0.35567, ID=0.083
+ATOM      1  CA  VAL A   1     -12.553   3.739  12.354
+ATOM      2  CA  LEU A   2     -14.014   6.535  10.256
+ATOM      3  CA  SER A   3     -16.597   5.663   7.639
+ATOM      4  CA  GLU A   4     -16.239   6.739   4.041
+ATOM      5  CA  GLY A   5     -18.935   9.328   4.677
+ATOM      6  CA  GLU A   6     -16.993  10.725   7.625
+ATOM      7  CA  TRP A   7     -13.770  10.927   5.608
+ATOM      8  CA  GLN A   8     -15.655  12.775   2.869
+ATOM      9  CA  LEU A   9     -16.789  15.396   5.378
+ATOM     11  CA  LEU A  11     -11.562  16.071   3.326
+ATOM     12  CA  HIS A  12     -14.256  18.390   1.976
+ATOM     15  CA  ALA A  15      -9.822  21.152   0.689
+TER
+CONECT    1    2
+CONECT    2    3
+CONECT    3    4
+CONECT    4    5
+CONECT    5    6
+CONECT    6    7
+CONECT    7    8
+CONECT    8    9
+CONECT    9   11
+CONECT   11   12
+CONECT   12   15
+ATOM    161  CA  ILE B  10     -12.721   3.866  12.444
+ATOM    162  CA  CYS B  11     -13.979   6.570  10.156
+ATOM    163  CA  SER B  12     -16.483   5.512   7.528
+ATOM    164  CA  LEU B  13     -16.254   6.772   3.922
+ATOM    165  CA  TYR B  14     -19.028   9.324   4.851
+ATOM    166  CA  GLN B  15     -16.865  10.685   7.691
+ATOM    167  CA  LEU B  16     -13.770  10.807   5.506
+ATOM    168  CA  GLU B  17     -15.552  12.899   2.827
+ATOM    169  CA  ASN B  18     -15.565  15.728   5.361
+ATOM    170  CA  TYR B  19     -11.850  16.156   4.589
+ATOM    171  CA  CYS B  20     -12.042  16.363   0.809
+ATOM    172  CA  ASN B  21     -11.685  19.697  -0.987
+TER
+CONECT  161  162
+CONECT  162  163
+CONECT  163  164
+CONECT  164  165
+CONECT  165  166
+CONECT  166  167
+CONECT  167  168
+CONECT  168  169
+CONECT  169  170
+CONECT  170  171
+CONECT  171  172
