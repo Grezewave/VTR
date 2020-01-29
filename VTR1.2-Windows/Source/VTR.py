@@ -5,7 +5,7 @@ while (1):
      os.system("md ..\\Results\\Contacts")
      os.system("md ..\\Results\\Matches")
      os.system("md ..\\Plots")
-     os.system("md ..\\Results\\Outs")
+     os.system("md ..\\Graphs")
      os.system("cls")
      os.system("echo ____________________________________________________________\n")
      os.system("echo VTR Geometric v 1.1\n")
