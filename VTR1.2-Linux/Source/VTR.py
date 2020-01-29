@@ -5,7 +5,7 @@ while (1):
      os.system("mkdir ../Results/Contacts")
      os.system("mkdir ../Results/Matches")
      os.system("mkdir ../Plots")
-     os.system("mkdir ../Results/Outs")
+     os.system("mkdir ../Graphs")
      os.system("clear")
      os.system("echo ____________________________________________________________\n")
      os.system("echo VTR Geometric v 1.1\n")
