@@ -1,6 +1,7 @@
 #VTR Functions
 
 import Contacts
+import matplotlib
 import matplotlib.pyplot as plt
 import numpy
 
@@ -103,9 +104,10 @@ def freq_VMD(matches,cutoff,detail):
     vmd = []
     for match in matches:
         y.append(match.VMD())
-    pic = plt.figure(figsize=(15, 5)) 
+    pic = plt.figure(figsize=(18, 5))
+    pic.patch.set_facecolor((1,0.79607843137,0.85882352941))
     plt.subplot(121)
-    frequency, _vmd, thrash = plt.hist(y,bins = x)
+    frequency, _vmd, thrash = plt.hist(y,bins = x,color = 'k')
     for i in range(1,len(_vmd)):
         vmd.append((_vmd[i-1] + _vmd[i])/2)
     plt.title('Frequency histogram')
@@ -114,14 +116,14 @@ def freq_VMD(matches,cutoff,detail):
     plt.xlabel('VMD')
 
     plt.subplot(122)
-    plt.plot(vmd,frequency,'r')
+    plt.plot(vmd,frequency,'k')
     plt.title('Frequency distribuition')
     plt.ylabel('Frequency')
     plt.xlabel('VMD')
-
+    plt.subplots_adjust(left=0.04, bottom=0.05, right=0.99, top=0.90, wspace=0.09, hspace=0.41)
+                
+    plt.savefig('../Graphs/VMD')
     plt.show()
-    plt.clf()
-    plt.close()
 
     if detail == "d":
         fig = 1
@@ -190,6 +192,7 @@ def freq_VMD(matches,cutoff,detail):
             for index in rtt_freq[ref]:
                 if index > _max:
                     _max = index
+
             for index in stc_freq[ref]:
                 if index > _max:
                     _max = index
@@ -197,7 +200,7 @@ def freq_VMD(matches,cutoff,detail):
         for ref in rtt_freq:                
             sub = "42"+str(x)
             plt.subplot(sub)
-            plt.bar(residues, rtt_freq[ref], width = 0.7)
+            plt.bar(residues, rtt_freq[ref],width=0.7)
             plt.axis([-1,20,0,_max])
             plt.title('Frequency '+ref)
             plt.ylabel('Frequency')
@@ -206,7 +209,7 @@ def freq_VMD(matches,cutoff,detail):
 
             sub = "42"+str(x)
             plt.subplot(sub)
-            plt.bar(residues, stc_freq[ref], width = 0.7)
+            plt.bar(residues, stc_freq[ref],width=0.7)
             plt.axis([-1,20,0,_max])
             plt.title('Frequency '+ref)
             plt.ylabel('Frequency')
@@ -215,11 +218,10 @@ def freq_VMD(matches,cutoff,detail):
         
             if x == 9:
                 plt.subplots_adjust(left=0.04, bottom=0.05, right=0.99, top=0.97, wspace=0.09, hspace=0.41)
-                plt.show()
+                plt.savefig('../Graphs/Resi-'+str(fig))
                 fig+=1
                 plt.clf()
-                plt.close()
-                pic2 = plt.figure(figsize=(14, 10))
+                plt.show()
                 x = 1    
     
 
