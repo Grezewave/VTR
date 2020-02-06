@@ -18,7 +18,7 @@ import VTR_Functions as vtr
 def main():
     start = time.time()
     if (len(sys.argv)) != 9 and (len(sys.argv)) != 8 :
-        print("Insufficient paramenters(min: 3, Protein 1, Protein 2, VMD )")
+        print("Insufficient paramenters(min: 8, Protein 1, Protein 2, cutoff ,chain11 ,chain12 ,chain21 ,chain22)")
         sys.exit()
     protein1 = sys.argv[1]
     protein2 = sys.argv[2]
@@ -33,8 +33,10 @@ def main():
     matches = vtr.match_contacts(rtt_contacts,stc_contacts,int(sys.argv[3]),sys.argv[4],sys.argv[5],sys.argv[6],sys.argv[7])
     end = time.time()
     print("Match execution time: " + str(end-start))
-    result = str(len(matches)) + " matches found" 
+    result = str(len(matches)) + " matches found"
     print(result)
+    if (0 == len(matches)):
+        sys.exit()
     print("RMSD = "+str(vtr.RMSD(matches, rtt_protein, stc_protein)))
     vtr.writer(protein1,protein2,rtt_protein,stc_protein,rtt_contacts,stc_contacts,matches)
     
