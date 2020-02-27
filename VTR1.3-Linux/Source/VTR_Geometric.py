@@ -38,6 +38,7 @@ def main():
     if (0 == len(matches)):
         sys.exit()
     print("RMSD = "+str(vtr.RMSD(matches, rtt_protein, stc_protein)))
+    print("VTR = "+str(vtr.VTR(matches, rtt_protein, stc_protein)))
     vtr.writer(protein1,protein2,rtt_protein,stc_protein,rtt_contacts,stc_contacts,matches)
     
     Plot.default_ploter(rtt_name, protein2, matches)

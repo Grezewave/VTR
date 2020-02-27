@@ -1,6 +1,7 @@
 #VTR Functions
 
 import Contacts
+import matplotlib
 import matplotlib.pyplot as plt
 import numpy
 
@@ -8,12 +9,21 @@ class match:
     def __init__(self,rtt_contact,stc_contact):
         self.rtt_contact = rtt_contact
         self.stc_contact = stc_contact
-    def Vector1(self):
+    def Vector11(self):
         return (Contacts.adistance(self.rtt_contact.atom1,self.stc_contact.atom1))
-    def Vector2(self):
+    def Vector12(self):
+        return (Contacts.adistance(self.rtt_contact.atom1,self.stc_contact.atom2))
+    def Vector21(self):
+        return (Contacts.adistance(self.rtt_contact.atom2,self.stc_contact.atom1))
+    def Vector22(self):
         return (Contacts.adistance(self.rtt_contact.atom2,self.stc_contact.atom2))
     def VMD(self):
-        return ((self.Vector1() + self.Vector2())/2)
+        VMD=[]
+        VMD.append((self.Vector11() + self.Vector22())/2)
+        VMD.append((self.Vector12() + self.Vector21())/2)
+        return (min(VMD))
+            
+            
 
 def minVMD(matches,blacklist,cutoff):
     minVMD = cutoff
@@ -25,12 +35,23 @@ def minVMD(matches,blacklist,cutoff):
                 minVMD = match.VMD()
     return match
 
+def pltcolor(index):
+    colors = ["aquamarine","violet","beige","black","blue","brown","chartreuse","coral","crimson","cyan","darkblue","pink","fuchsia","gold","green","grey","chartreuse","chocolate","cyan","darksalmon"]
+    return (colors[(index)%(len(colors))])
+    
 def RMSD(matches, protein1, protein2):
     RMSD = 0
     for i in matches:
         RMSD += (i.VMD()**2)
-    RMSD = (RMSD/(protein1.size()*protein2.size()))*(1/2)
+    RMSD = (RMSD/len(matches))*(1/2)
     return RMSD
+
+def VTR(matches, protein1, protein2):
+    VTR = 0
+    for i in matches:
+        VTR += i.VMD()
+    VTR = (VTR/len(matches))*(1+abs(protein1.size()-protein2.size()))
+    return VTR
 
 def match_contacts(rtt_contacts,stc_contacts,cutoff,chain11,chain12,chain21,chain22):
     all_matches = []
@@ -103,9 +124,10 @@ def freq_VMD(matches,cutoff,detail):
     vmd = []
     for match in matches:
         y.append(match.VMD())
-    pic = plt.figure(figsize=(15, 5)) 
+    pic = plt.figure(figsize=(18, 5))
+    pic.patch.set_facecolor((1,0.79607843137,0.85882352941))
     plt.subplot(121)
-    frequency, _vmd, thrash = plt.hist(y,bins = x)
+    frequency, _vmd, thrash = plt.hist(y,bins = x,color = 'k')
     for i in range(1,len(_vmd)):
         vmd.append((_vmd[i-1] + _vmd[i])/2)
     plt.title('Frequency histogram')
@@ -114,14 +136,14 @@ def freq_VMD(matches,cutoff,detail):
     plt.xlabel('VMD')
 
     plt.subplot(122)
-    plt.plot(vmd,frequency,'r')
+    plt.plot(vmd,frequency,'k')
     plt.title('Frequency distribuition')
     plt.ylabel('Frequency')
     plt.xlabel('VMD')
-
+    plt.subplots_adjust(left=0.04, bottom=0.05, right=0.99, top=0.90, wspace=0.09, hspace=0.41)
+                
+    plt.savefig('../Graphs/VMD')
     plt.show()
-    plt.clf()
-    plt.close()
 
     if detail == "d":
         fig = 1
@@ -190,6 +212,7 @@ def freq_VMD(matches,cutoff,detail):
             for index in rtt_freq[ref]:
                 if index > _max:
                     _max = index
+
             for index in stc_freq[ref]:
                 if index > _max:
                     _max = index
@@ -197,7 +220,7 @@ def freq_VMD(matches,cutoff,detail):
         for ref in rtt_freq:                
             sub = "42"+str(x)
             plt.subplot(sub)
-            plt.bar(residues, rtt_freq[ref], width = 0.7)
+            plt.bar(residues, rtt_freq[ref],width=0.7)
             plt.axis([-1,20,0,_max])
             plt.title('Frequency '+ref)
             plt.ylabel('Frequency')
@@ -206,7 +229,7 @@ def freq_VMD(matches,cutoff,detail):
 
             sub = "42"+str(x)
             plt.subplot(sub)
-            plt.bar(residues, stc_freq[ref], width = 0.7)
+            plt.bar(residues, stc_freq[ref],width=0.7)
             plt.axis([-1,20,0,_max])
             plt.title('Frequency '+ref)
             plt.ylabel('Frequency')
@@ -215,16 +238,15 @@ def freq_VMD(matches,cutoff,detail):
         
             if x == 9:
                 plt.subplots_adjust(left=0.04, bottom=0.05, right=0.99, top=0.97, wspace=0.09, hspace=0.41)
+                plt.savefig('../Graphs/Resi-'+str(fig))
                 plt.show()
                 fig+=1
                 plt.clf()
-                plt.close()
-                pic2 = plt.figure(figsize=(14, 10))
-                x = 1    
+                x = 1     
     
 
 def writer(protein1,protein2,rtt_protein,stc_protein,rtt_contacts,stc_contacts,matches):
-    outfile = "../Results/Matches/" + protein1[-8:-4] + "x" + protein2[-8:-4] + ".txt"
+    outfile = "../Results/Matches/" + protein1[protein1.rfind("/")+1:-4] + "x" + protein2[protein2.rfind("/")+1:-4] + ".txt"
     out = open(outfile,'w')
     out.write("Rotate Protein: ")
     out.write(rtt_protein.idPDB)
@@ -243,6 +265,8 @@ def writer(protein1,protein2,rtt_protein,stc_protein,rtt_contacts,stc_contacts,m
         out.write(str(i.rtt_contact.residue1.parameter))
         out.write(" ")
         out.write(i.rtt_contact.atom1.type)
+        out.write(" ")
+        out.write(str(i.rtt_contact.atom1.id))
         out.write(" ----------- ")
         out.write(i.rtt_contact.chain2.id)
         out.write(" ")
@@ -251,6 +275,8 @@ def writer(protein1,protein2,rtt_protein,stc_protein,rtt_contacts,stc_contacts,m
         out.write(str(i.rtt_contact.residue2.parameter))
         out.write(" ")
         out.write(i.rtt_contact.atom2.type)
+        out.write(" ")
+        out.write(str(i.rtt_contact.atom2.id))
         out.write("\n")
         out.write(i.stc_contact.chain1.id)
         out.write(" ")
@@ -259,6 +285,8 @@ def writer(protein1,protein2,rtt_protein,stc_protein,rtt_contacts,stc_contacts,m
         out.write(str(i.stc_contact.residue1.parameter))
         out.write(" ")
         out.write(i.stc_contact.atom1.type)
+        out.write(" ")
+        out.write(str(i.stc_contact.atom1.id))
         out.write(" ----------- ")
         out.write(i.stc_contact.chain2.id)
         out.write(" ")
@@ -267,6 +295,8 @@ def writer(protein1,protein2,rtt_protein,stc_protein,rtt_contacts,stc_contacts,m
         out.write(str(i.stc_contact.residue2.parameter))
         out.write(" ")
         out.write(i.stc_contact.atom2.type)
+        out.write(" ")
+        out.write(str(i.stc_contact.atom2.id))
         out.write("\n")
         out.write("VMD: ")
         out.write(str(i.VMD()))

@@ -10,6 +10,7 @@
 #The input is a protein and a out name, not a file name
 #Better class structure
 
+#Contacts v1.6
 import sys
 import Classify
 

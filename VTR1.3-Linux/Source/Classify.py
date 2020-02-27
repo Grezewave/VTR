@@ -13,7 +13,6 @@ class proteins:
 class chain:
     def __init__(self):
         self.id = ""
-        self.seqres = []
         self.residues = []
 class residue:
     def __init__(self):
@@ -51,9 +50,9 @@ def idPDB(data):
 def chainslist(data):
     info = []
     for i in data:
-        if i[0:6] == "SEQRES":
-            if not(i[11] in info):
-                info.extend(i[11])
+        if i[0:4] == "ATOM":
+            if not(i[21] in info):
+                info.extend(i[21])
     return info
             
 def chainsdef(chainlist,data):
@@ -62,44 +61,12 @@ def chainsdef(chainlist,data):
     e = 0
     x = 0
     guard = []
+    for i in range(0,len(chainlist)):
+        info = chainlist[i]
+        chainlist[i] = chain()
+        chainlist[i].id = info
     for i in data:
-        if i[0:6] == "SEQRES":
-            if (i[11] == chainlist[o]):
-                info = chainlist[o]
-                chainlist[o] = chain()
-                chainlist[o].id = info
-                j = 19
-                k = j
-                while i[k] != " " or i[k+1] != " ":
-                    k = j
-                    while i[k] != " ":
-                        k+=1
-                    chainlist[o].seqres.append(i[j:k])
-                    j = k + 1
-            elif i[11] == chainlist[o].id:
-                j = 19
-                k = j
-                while i[k] != " " or i[k+1] != " ":
-                    k = j
-                    while i[k] != " ":
-                        k+=1
-                    chainlist[o].seqres.append(i[j:k])
-                    j = k + 1
-            else:
-                o+=1
-                if (i[11] == chainlist[o]):
-                    info = chainlist[o]
-                    chainlist[o] = chain()
-                    chainlist[o].id = info
-                    j = 19
-                    k = j
-                    while i[k] != " " or i[k+1] != " ":
-                        k = j
-                        while i[k] != " ":
-                            k+=1
-                        chainlist[o].seqres.append(i[j:k])
-                        j = k + 1
-        elif i[0:4] == "ATOM":
+        if i[0:4] == "ATOM":
             if i[21] == chainlist[e].id:
                 if int(i[22:26]) not in guard:
                     guard.append(int(i[22:26]))
@@ -163,8 +130,14 @@ def atomdef(data,atomlist,resname,parameter,chain):
                     atomlist[x].x = float(i[30:38])
                     atomlist[x].y = float(i[38:46])
                     atomlist[x].z = float(i[46:54])
-                    atomlist[x].occupancy = float(i[54:60])
-                    atomlist[x].b_factor = float(i[60:66])
+                    try:
+                        atomlist[x].occupancy = float(i[54:60])
+                    except:
+                        h = 0
+                    try:
+                        atomlist[x].b_factor = float(i[60:66])
+                    except:
+                        h = 0
                     x+=1
     return atomlist
 

@@ -18,27 +18,27 @@ def colorscale(VMD, cutoff, out):
     return(color)
 
 def default_ploter(rtt_path, stc_path, matches):
-    pmlname = "../Plots/default" + rtt_path[-15:-11] + "_x_" + stc_path[-8:-4] + ".pml"
+    pmlname = "../Plots/default" + rtt_path[rtt_path.rfind("/")+1:rtt_path.rfind("_")] + "_x_" + stc_path[stc_path.rfind("/")+1:-4] + ".pml"
     pml = open(pmlname,'w')
     pml.write("load ../" + rtt_path[3:] + "\n")
     pml.write("load ../" + stc_path[3:] + "\n")
     x = 0
     for i in matches:
-        selection1 = rtt_path[-15:-11] + str(i.rtt_contact.atom1.id)
-        entry = "select " + selection1 + ",model " + rtt_path[-15:-4] + " and id " + str(i.rtt_contact.atom1.id) + "\n"
+        selection1 = rtt_path[rtt_path.rfind("/")+1:rtt_path.rfind("_")] + str(i.rtt_contact.atom1.id)
+        entry = "select " + selection1 + ",model " + rtt_path[rtt_path.rfind("/")+1:-4] + " and id " + str(i.rtt_contact.atom1.id) + "\n"
         pml.write(entry)
-        selection2 = rtt_path[-15:-11] + str(i.rtt_contact.atom2.id)
-        entry = "select " + selection2 + ",model " + rtt_path[-15:-4] + " and id " + str(i.rtt_contact.atom2.id) + "\n"
+        selection2 = rtt_path[rtt_path.rfind("/")+1:rtt_path.rfind("_")] + str(i.rtt_contact.atom2.id)
+        entry = "select " + selection2 + ",model " + rtt_path[rtt_path.rfind("/")+1:-4] + " and id " + str(i.rtt_contact.atom2.id) + "\n"
         pml.write(entry)
         entry = "distance " + selection1 + "-" + selection2 + ", " + selection1 + ", " + selection2 + "\n"
         pml.write(entry)
         entry = "color " + colorchange(x) + ", " + selection1 + "-" + selection2 + "\n"
         pml.write(entry)
-        selection1 = stc_path[-8:-4] + str(i.stc_contact.atom1.id)
-        entry = "select " + selection1 + ",model " + stc_path[-8:-4] + " and id " + str(i.stc_contact.atom1.id) + "\n"
+        selection1 = stc_path[stc_path.rfind("/")+1:-4] + str(i.stc_contact.atom1.id)
+        entry = "select " + selection1 + ",model " + stc_path[stc_path.rfind("/")+1:-4] + " and id " + str(i.stc_contact.atom1.id) + "\n"
         pml.write(entry)
-        selection2 = stc_path[-8:-4] + str(i.stc_contact.atom2.id)
-        entry = "select " + selection2 + ",model " + stc_path[-8:-4] + " and id " + str(i.stc_contact.atom2.id) + "\n"
+        selection2 = stc_path[stc_path.rfind("/")+1:-4] + str(i.stc_contact.atom2.id)
+        entry = "select " + selection2 + ",model " + stc_path[stc_path.rfind("/")+1:-4] + " and id " + str(i.stc_contact.atom2.id) + "\n"
         pml.write(entry)
         entry = "distance " + selection1 + "-" + selection2 + ", " + selection1 + ", " + selection2 + "\n"
         pml.write(entry)
@@ -50,7 +50,7 @@ def default_ploter(rtt_path, stc_path, matches):
     pml.close()
 
 def detailed_ploter(rtt_path, stc_path, matches, cutoff):
-    pmlname = "../Plots/c_scale" + rtt_path[-15:-11] + "_x_" + stc_path[-8:-4] + ".pml"
+    pmlname = "../Plots/c_scale" + rtt_path[rtt_path.rfind("/")+1:rtt_path.rfind("_")] + "_x_" + stc_path[stc_path.rfind("/")+1:-4] + ".pml"
     pml = open(pmlname,'w')
     pml.write("load ../" + rtt_path[3:] + "\n")
     pml.write("load ../" + stc_path[3:] + "\n")
@@ -59,21 +59,21 @@ def detailed_ploter(rtt_path, stc_path, matches, cutoff):
         color = colorscale(i.VMD(),cutoff,'l')
         entry = "set_color " + str(color[0]) + "_" + str(color[1]) + "_" + str(color[2]) + ", [" + str(color[0]) + "," + str(color[1]) + "," + str(color[2]) + "]\n"
         pml.write(entry)
-        selection1 = rtt_path[-15:-11] + str(i.rtt_contact.atom1.id)
-        entry = "select " + selection1 + ",model " + rtt_path[-15:-4] + " and id " + str(i.rtt_contact.atom1.id) + "\n"
+        selection1 = rtt_path[rtt_path.rfind("/")+1:rtt_path.rfind("_")] + str(i.rtt_contact.atom1.id)
+        entry = "select " + selection1 + ",model " + rtt_path[rtt_path.rfind("/")+1:-4] + " and id " + str(i.rtt_contact.atom1.id) + "\n"
         pml.write(entry)
-        selection2 = rtt_path[-15:-11] + str(i.rtt_contact.atom2.id)
-        entry = "select " + selection2 + ",model " + rtt_path[-15:-4] + " and id " + str(i.rtt_contact.atom2.id) + "\n"
+        selection2 = rtt_path[rtt_path.rfind("/")+1:rtt_path.rfind("_")] + str(i.rtt_contact.atom2.id)
+        entry = "select " + selection2 + ",model " + rtt_path[rtt_path.rfind("/")+1:-4] + " and id " + str(i.rtt_contact.atom2.id) + "\n"
         pml.write(entry)
         entry = "distance " + selection1 + "-" + selection2 + ", " + selection1 + ", " + selection2 + "\n"
         pml.write(entry)
         entry = "color " + str(color[0]) + "_" + str(color[1]) + "_" + str(color[2]) + ", " + selection1 + "-" + selection2 + "\n"
         pml.write(entry)
-        selection1 = stc_path[-8:-4] + str(i.stc_contact.atom1.id)
-        entry = "select " + selection1 + ",model " + stc_path[-8:-4] + " and id " + str(i.stc_contact.atom1.id) + "\n"
+        selection1 = stc_path[stc_path.rfind("/")+1:-4] + str(i.stc_contact.atom1.id)
+        entry = "select " + selection1 + ",model " + stc_path[stc_path.rfind("/")+1:-4] + " and id " + str(i.stc_contact.atom1.id) + "\n"
         pml.write(entry)
-        selection2 = stc_path[-8:-4] + str(i.stc_contact.atom2.id)
-        entry = "select " + selection2 + ",model " + stc_path[-8:-4] + " and id " + str(i.stc_contact.atom2.id) + "\n"
+        selection2 = stc_path[stc_path.rfind("/")+1:-4] + str(i.stc_contact.atom2.id)
+        entry = "select " + selection2 + ",model " + stc_path[stc_path.rfind("/")+1:-4] + " and id " + str(i.stc_contact.atom2.id) + "\n"
         pml.write(entry)
         entry = "distance " + selection1 + "-" + selection2 + ", " + selection1 + ", " + selection2 + "\n"
         pml.write(entry)
@@ -93,19 +93,19 @@ def multi_ploter(rtt_path, stc_path, matches, cutoff):
         pml.write("load ../../" + stc_path[3:] + "\n")
         entry = "hide all\n"
         pml.write(entry)
-        selection1 = rtt_path[-15:-11] + i.rtt_contact.residue1.id + str(i.rtt_contact.residue1.parameter)
-        entry = "select " + selection1 + ",model " + rtt_path[-15:-4] + " and resi " + str(i.rtt_contact.residue1.parameter) + "\n"
+        selection1 = rtt_path[rtt_path.rfind("/")+1:rtt_path.rfind("_")] + i.rtt_contact.residue1.id + str(i.rtt_contact.residue1.parameter)
+        entry = "select " + selection1 + ",model " + rtt_path[rtt_path.rfind("/")+1:-4] + " and chain " + i.rtt_contact.chain1.id + " and resi " + str(i.rtt_contact.residue1.parameter) + "\n"
         pml.write(entry)
-        selection2 = rtt_path[-15:-11] + i.rtt_contact.residue2.id + str(i.rtt_contact.residue2.parameter)
-        entry = "select " + selection2 + ",model " + rtt_path[-15:-4] + " and resi " + str(i.rtt_contact.residue2.parameter) + "\n"
+        selection2 = rtt_path[rtt_path.rfind("/")+1:rtt_path.rfind("_")] + i.rtt_contact.residue2.id + str(i.rtt_contact.residue2.parameter)
+        entry = "select " + selection2 + ",model " + rtt_path[rtt_path.rfind("/")+1:-4] + " and chain " + i.rtt_contact.chain2.id + " and resi " + str(i.rtt_contact.residue2.parameter) + "\n"
         pml.write(entry)
         entry = "show sticks, " + selection1 + " " + selection2 + "\n"
         pml.write(entry)
-        selection1 = stc_path[-8:-4] + i.stc_contact.residue1.id + str(i.stc_contact.residue1.parameter)
-        entry = "select " + selection1 + ",model " + stc_path[-8:-4] + " and resi " + str(i.stc_contact.residue1.parameter) + "\n"
+        selection1 = stc_path[stc_path.rfind("/")+1:-4] + i.stc_contact.residue1.id + str(i.stc_contact.residue1.parameter)
+        entry = "select " + selection1 + ",model " + stc_path[stc_path.rfind("/")+1:-4] + " and chain " + i.stc_contact.chain1.id + " and resi " + str(i.stc_contact.residue1.parameter) + "\n"
         pml.write(entry)
         selection2 = stc_path[-8:-4] + i.stc_contact.residue2.id + str(i.stc_contact.residue2.parameter)
-        entry = "select " + selection2 + ",model " + stc_path[-8:-4] + " and resi " + str(i.stc_contact.residue2.parameter) + "\n"
+        entry = "select " + selection2 + ",model " + stc_path[stc_path.rfind("/")+1:-4] + " and chain " + i.stc_contact.chain2.id + " and resi " + str(i.stc_contact.residue2.parameter) + "\n"
         pml.write(entry)
         entry = "show sticks, " + selection1 + " " + selection2 + "\n"
         pml.write(entry)
